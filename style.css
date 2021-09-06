@@ -1,10 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
 }
 
 /*header , nav bar, logo*/
@@ -12,13 +13,12 @@
 header {
     height: 80px;
     width: 100%;
-    background: white;
+    background: #f4f0c9;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 1px solid navy;
-    box-shadow: 0px 0px 17px 5px rgb(111, 111, 185);
+    border-bottom: 2px solid #242f62; 
 }
 
 .logo {
@@ -29,25 +29,81 @@ header {
 .navbar {
     display: inline-block;
     list-style-type: none;
-    color: navy;
+    color: #242f62;
     font-size: 30px; 
-    margin-left: 30px;  
+    margin-left: 30px;
+      
+
 }
 
-/*hero image, cards, products*/
+.navbar:hover {
+    background: #242f62;
+    padding: 10px;
+    color: #f4f0c9;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*hero image*/
 
 .hero-image-container {
     background-color: #242f62;
-    width: 100%;
+    width: 100%; 
     height: 50vh;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /*box-shadow: inset 0px 100px 100px 10px #f4f0c9;*/
 }
+
+.info-container h1 {
+    margin-right: 15%;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 2em;
+    border-bottom: 1px solid #f4f0c9;
+}
+
+.info-container h3 {
+    margin-right: 15%;
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 2em;
+    color: chocolate;
+}
+
+.info-container p {
+    margin-right: 15%;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 2em;
+    display: block;
+}
+
+.info-container input[type="submit"] {
+    font-size: 40px;
+    margin: 35px 0px;
+    padding: 0.3em 0.4em;
+    border-radius: 10px;
+    background: chocolate;
+    color: white;
+}
+
+.img-container img {
+    border-radius: 10px;    
+    margin-bottom: 35px;
+    
+}
+
+/*cards, products*/
 
 .cards-container {
     width: 60%;
     height: 300px;
-    margin-top: 30px;
-    margin: 0 auto;
+   
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     
@@ -79,4 +135,34 @@ header {
     text-align: justify;
     text-align: center;
     margin-top: 10px;
+}
+
+
+
+/*mid section*/
+
+.mid-section {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.mid-section img {
+    border-radius: 10px;
+} 
+
+.left {
+    border: 1px solid red;
+    height: 30vh;
+    width: 20%;
+    
+}
+
+.right {
+    border: 1px solid red;
+    height: 30vh;
+    width: 20%;
 }
