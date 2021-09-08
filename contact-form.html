@@ -8,21 +8,43 @@
     <link rel="stylesheet" href="contact-form.css">
 </head>
 <body>
+    
+        <div class="header-container">
+            <header> 
+                <a href="index.html"><img src="C:\Users\Jan Jaša\Documents\GitHub\Bohemian-Estates\assets\images\logo-blue.svg" alt="" class="logo"></a>
+                <nav>
+                    <ul>
+                        <a href="product.html"><li class="navbar">Garantovaný nájem</li></a>
+                        <a href="contact-form.html"><li class="navbar form-connect">spočítat nájemné</li></a>
+                        <li class="navbar">kontakty</li>   
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    
     <main>
-        <form action="">
-            <label for="name">Jméno a Príjmení</label>
-            <input type="text" name="name">
-            <label for="email">email</label>
-            <input type="email" name="email">
-            <label for="tel">telefon</label>
-            <input type="tel" name="tel">
-            <input type="submit">
-            <input type="checkbox" name="rules">
-        
-            <label for="rules">souhlasím s podínkami</label>
-            <input type="checkbox" name="news">
-            <label for="news">chci dostávat novinky emailem</label>  
-        </form>
+        <div class="form-container"> 
+            <div class="form-text">
+                <h1>Zjistěte, za kolik se dá pronajmout váš byt</h1>
+                <p>Ušetřete čas, peníze i starosti. Ideální nájemce garantuje stav bytu i to, že nájemné dostanete vždy a včas. Vyplňte krátký formulář a zjistíte, za kolik můžete svůj byt s Ideálním nájemcem pronajmout.</p>
+            </div>
+            <div class="form">
+                <form action="">
+                    <label for="name">Jméno a Príjmení</label>
+                    <input type="text" name="name">
+                    <label for="email">email</label>
+                    <input type="email" name="email">
+                    <label for="tel">telefon</label>
+                    <input type="tel" name="tel">
+                    <input type="checkbox" name="rules">
+                    <label for="rules">souhlasím s podínkami</label>
+                    <input type="checkbox" name="news">
+                    <label for="news">chci dostávat novinky emailem</label> 
+                    <input type="submit">
+                     
+                </form>
+            </div>
+        </div>        
     </main>
 </body>
 </html>

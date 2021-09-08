@@ -43,19 +43,19 @@ header {
     display: inline-block;
     list-style-type: none;
     color: #242f62;
-    font-size: 30px; 
+    font-size: 25px; 
     margin-left: 30px;
-      
-
 }
 
-.navbar:hover {
+.form-connect {
     background: #242f62;
+    border-radius: 50px;
+    color: white;
     padding: 10px;
-    color: #f4f0c9;
-    transition: 0.5s;
-    cursor: pointer;
-    border-radius: 10px;
+}
+
+.navbar:hover { 
+    cursor: pointer; 
 }
 
 /*hero image*/
