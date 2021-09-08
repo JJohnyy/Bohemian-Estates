@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/*header , nav bar, logo*/
+
+header {
+    height: 80px;
+    width: 100%;
+    background: #f4f0c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #242f62; 
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar {
+    display: inline-block;
+    list-style-type: none;
+    color: #242f62;
+    font-size: 30px; 
+    margin-left: 30px;
+      
+
+}
+
+.navbar:hover {
+    background: #242f62;
+    padding: 10px;
+    color: #f4f0c9;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+}

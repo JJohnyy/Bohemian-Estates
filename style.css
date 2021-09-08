@@ -12,15 +12,26 @@
 
 /*header , nav bar, logo*/
 
+.header-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 header {
     height: 80px;
-    width: 100%;
-    background: #f4f0c9;
+    width: 60%;
+    margin-top: 20px;
+    background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border-bottom: 2px solid #242f62; 
+    box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
+    border-radius: 50px;
+    
 }
 
 .logo {
@@ -50,57 +61,63 @@ header {
 /*hero image*/
 
 .hero-image-container {
-    background-color: #242f62;
-    width: 100%; 
+    width: 60%;
+    margin: 0 auto; 
     height: 50vh;
-    color: white;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     /*box-shadow: inset 0px 100px 100px 10px #f4f0c9;*/
 }
 
-.info-container h1 {
-    margin-right: 15%;
+.info-container h2 {
+    width: 500px;
     font-size: 50px;
     letter-spacing: 5px;
-    line-height: 2em;
-    border-bottom: 1px solid #f4f0c9;
+   /*line-height: 2em;*/
+    border-bottom: 1px solid #242f62;;
     font-family: 'ZCOOL KuaiLe', cursive;
     text-transform: uppercase;
-    text-shadow: 3px 3px chocolate;
+    color:#242f62;
 }
 
 .info-container h3 {
-    margin-right: 15%;
+    width: 500px;
     font-size: 40px;
-    letter-spacing: 5px;
-    line-height: 2em;
+    letter-spacing: 2px;
+    /*line-height: 2em;*/
     color: chocolate;
     font-family: 'ZCOOL KuaiLe', cursive;
 }
 
 .info-container p {
-    margin-right: 15%;
+    width: 500px;
+    margin-top: 20px;
     font-size: 20px;
-    letter-spacing: 2px;
+    /*letter-spacing: 2px;*/
     line-height: 2em;
     display: block;
+    color: #242f62;
 }
 
 .info-container input[type="submit"] {
-    font-size: 40px;
+    font-size: 30px;
     margin: 35px 0px;
-    padding: 0.3em 0.4em;
-    border-radius: 10px;
+    padding: 0.4em 0.5em;
+    border-radius: 50px;
     background: chocolate;
     color: white;
     font-family: 'Staatliches', cursive;
 }
 
+.img-container {
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    border:1px solid #242f62;
+}
+
 .img-container img {
     border-radius: 10px;    
-    margin-bottom: 35px;
     
 }
 
@@ -120,14 +137,17 @@ header {
     height: 300px;
     width: 33%;
     text-align: center;
-    background: #242f62;
-    color: white;
-    border-radius: 10px;
+    background: white;
+    color: #242f62;
+    box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
+    border-radius: 5px;
 }
 
-.card h1 {
+.card h2 {
     font-size: 2em;
     padding: 10px;
+    margin: 20px auto;
+    color: chocolate;
 }
 
 .card hr {
@@ -150,125 +170,113 @@ header {
 
 /*mid section*/
 
+h1 {    
+    font-size: 50px;
+    text-align: center;
+    margin: 70px auto;
+    color: chocolate;
+}
+
 .mid-section {
-    background-color:rgb(244, 240, 201, 0.3);
-    
-    width: 60%;
     height: 50vh;
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid chocolate;
-    border-radius: 10px;
-    margin: 0 auto;
-
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.mid-section img {
-    border-radius: 10px;
-    
-} 
-
-.left {
-    border: 3px solid #242f62;
-    border-radius: 10px;
-    margin-right: 10px;
-    height: 30vh;
-    width: 15%;
-    text-align: center;
-    padding-top: 100px;
-    background: #f9f7f4;
+.mid-section div {
+    height: 25vh;
+    width: 30%;
 }
 
-.left h3 {
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #f9f7f4;
-    background: #242f62;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 3px;
-}
-
-
-.right {
-    border: 3px solid #242f62;
-    border-radius: 10px;
-    height: 30vh;
-    width: 35%;
-    background: #f9f7f4;
-    padding-left: 5px;
-    line-height: 3em;
-    margin-left: 10px;
-}
-
-.right details summary {
-    text-align: left;
-    font-size: 20px;
-}
-
-.right ul li {
+.first-row {
+    margin-top: 30px;
     margin-left: 30px;
-    list-style-type: square;
-    line-height: 2em;
 }
 
-.right h3 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    background: #242f62;
-    border-radius: 10px;
-    color: #f9f7f4;
-    margin: 30px;
+.second-row {
+    margin-right: 30px;
 }
 
-/*faq*/
-
-.questions-container {
-    width: 100%;
-    height: 50vh;
-    margin-top: 10px;
-    text-align: center;
+.mid-section h3 {
+    font-size: 20px;
+    color: chocolate;
 }
 
-.questions-container details {
-    list-style-image: url('C:\Users\Jan Jaša\Documents\GitHub\Bohemian-Estates\assets\images\plus-solid.svg');
-}
-
-.questions-container h1 {
-    font-size: 50px;
-    text-transform: uppercase;
-}
-
-.questions-container h3 {
+.mid-section i {
     font-size: 25px;
-    background: #242f62;
-    color: #f9f7f4;
-    width: 20%;  
-    margin: 10px auto;
+    margin-left: 5px;
+    color:#242f62;
 }
 
-.questions-container p {
+.mid-section p {
     font-size: 18px;
-    display: block;
-    background: #f9f7f4;
-    width: 50%;
-    margin: 10px auto;
 }
 
+.mid-section input[type="submit"] {
+    position: absolute;
+    font-size:20px;
+    bottom: 70px;
+    border: 2px solid chocolate;
+    background-color: white;
+    color: chocolate;
+    padding: 0.3em;
+     border-radius: 50px;
+    
+}
+
+
+/*product-flow*/
+
+.product-flow {
+    width: 60%;
+    height: 15vh;
+    margin: 0 auto;
+    border:1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flow-info {
+    height: 10vh;
+    width: 16%;
+    border: 1px solid red;
+
+}
+
+
+
+
+/*contact form*/
+.contact {
+    width: 100%;
+    height: 25vh;
+    border:1px solid red;
+    background: #242f62;
+    
+}
 
 
 /*footer, social media icons*/
 
 .social {
     width: 100%;
-    height: 150px;
+    height: 80px;
     border-top: 2px solid #242f62;
-   /* position: fixed;*/
-   display: flex;
-   justify-content: center;
-   align-items: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
 }
 
 .social i{
@@ -290,9 +298,9 @@ header {
 }
 
 .social input {
-    font-size: 40px;
+    font-size: 30px;
     margin-left: 50px;
-    padding: 0.3em 0.4em;
+    padding: 0.2em 0.3em;
     border-radius: 10px;
     background: chocolate;
     color: white;
