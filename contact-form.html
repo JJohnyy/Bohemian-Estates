@@ -23,27 +23,57 @@
         </div>
     
     <main>
+       <!-- <img src="C:\Users\Jan Jaša\Documents\GitHub\Bohemian-Estates\assets\images\flat.jpg" alt="" class="corner-image">-->
         <div class="form-container"> 
             <div class="form-text">
                 <h1>Zjistěte, za kolik se dá pronajmout váš byt</h1>
                 <p>Ušetřete čas, peníze i starosti. Ideální nájemce garantuje stav bytu i to, že nájemné dostanete vždy a včas. Vyplňte krátký formulář a zjistíte, za kolik můžete svůj byt s Ideálním nájemcem pronajmout.</p>
             </div>
-            <div class="form">
-                <form action="">
-                    <label for="name">Jméno a Príjmení</label>
-                    <input type="text" name="name">
-                    <label for="email">email</label>
-                    <input type="email" name="email">
-                    <label for="tel">telefon</label>
-                    <input type="tel" name="tel">
-                    <input type="checkbox" name="rules">
-                    <label for="rules">souhlasím s podínkami</label>
-                    <input type="checkbox" name="news">
-                    <label for="news">chci dostávat novinky emailem</label> 
-                    <input type="submit">
-                     
-                </form>
-            </div>
+                <div class="outer-form-wrapper">
+                    <div class="inner-form-wrapper">
+                        <form action="">
+                            <label for="town">Město</label>
+                            <select name="town" id="town">
+                                <option value="" placeholder="Město"></option>
+                                <option value="Praha">Praha</option>
+                                <option value="Brno">Brno</option>
+                                <option value="Ostrava">Ostrava</option>
+                            </select>
+                            <div class="mid-table-wrapper">
+                                <div class="mid-table-left">
+                                <label for="dispozition">Dispozice</label>
+                                    <select name="dispozition" id="dispozition">
+                                        <option value="disabled" selected hidden></option>
+                                        <option value="1+kk">1+kk</option>
+                                        <option value="2+kk">2+kk</option>
+                                        <option value="3+kk">3+kk</option>
+                                        <option value="4+kk">4+kk</option>
+                                        <option value="5+kk">5+kk</option>
+                                        <option value="6+kk">6+kk</option>
+                                    </select>
+                                </div>
+                                <div class="mid-table-right">
+                                    <label for="size">Výměra</label>
+                                    <input type="number" id="size" name="size" placeholder="32m2">
+                                </div>
+                            </div>
+                            <div class="form-divider"></div>
+                            <label for="name">Jméno a Příjmení</label>
+                            <input type="text" name="name">
+                            <label for="email">email</label>
+                            <input type="email" name="email">
+                            <label for="tel">telefon</label>
+                            <input type="tel" name="tel">
+                            <div class="form-checkbox">
+                               <!--<input type="checkbox" name="rules">
+                                <label for="rules">souhlasím s podmínkami</label>
+                                <input type="checkbox" name="news">
+                                <label for="news">chci dostávat novinky emailem</label>-->
+                            </div>
+                            <input type="submit" value="nacenit pronájem">    
+                        </form>
+                   </div>
+                </div>   
         </div>        
     </main>
 </body>
