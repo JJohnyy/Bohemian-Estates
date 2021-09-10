@@ -311,7 +311,9 @@ header {
     height: 50vh;
     width: 60%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   /* display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
@@ -321,7 +323,9 @@ header {
 
 .mid-section div {
     height: 25vh;
-    width: 30%;
+   /*width: 30%;*/
+    width: 20vw;
+    max-width: 360px;
 }
 
 .first-row {
@@ -422,26 +426,36 @@ header {
     height: 12.5vh;
     border: 1px solid red;
     margin: 0 auto;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    flex-direction: column;
+}
+
+.footer-logo { 
+    width: 30%;
+}
+
+.footer-logo img{
+     width: 20em;
+     padding-bottom: 2em;
+     padding-top: 3em; 
+
 }
 
 
 .social {
-    width: 100%;
+    width: 30%;
     height: 80px;
-    border-top: 2px solid #242f62;
-    left: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: white;
+    
+    padding: 0;
 }
 
 .social i{
-    width: 45px;
-    font-size: 25px;
+    width: 35px;
+    font-size: 13px;
     color: white;
-    background: #b1004d;
+    background: chocolate;
     padding: 10px;
     text-align: center;
     margin-right: 5px;
@@ -451,8 +465,13 @@ header {
 }
 
 .social i:hover{
-    background: cornflowerblue;
     transform: translateY(-10px);
+}
+
+
+.footer-top-section span {
+    font-size: 2em;
+    color: white;
 }
 
 
