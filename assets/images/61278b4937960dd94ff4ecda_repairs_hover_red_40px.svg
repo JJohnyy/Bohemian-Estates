@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="40" height="40"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_10" data-name="Path 10" d="M-27-205H21.98v-40H-27Z" transform="translate(27 245)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="repairs_hover_red_40px" clip-path="url(#clip-path)">
+    <g id="Group_11" data-name="Group 11" transform="translate(22.626 245)">
+      <g id="Group_10" data-name="Group 10" transform="translate(-27 -245)" clip-path="url(#clip-path-2)">
+        <g id="Group_1" data-name="Group 1" transform="translate(37.595 14.919)">
+          <path id="Path_1" data-name="Path 1" d="M.241,0V19.577" transform="translate(-0.241)" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_5" data-name="Group 5" transform="translate(12.503 7.278)">
+          <path id="Path_5" data-name="Path 5" d="M0,0H3.382V14.1H0Z" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_6" data-name="Group 6" transform="translate(11.598 21.378)">
+          <path id="Path_6" data-name="Path 6" d="M0-91.641H5.191v-17.881H0Z" transform="translate(0 109.522)" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_7" data-name="Group 7" transform="translate(5.045 1.126)">
+          <path id="Path_7" data-name="Path 7" d="M5.681,3.3V6.153H12.1l1.469-1.575,1.409,1.275h1.721a1.24,1.24,0,0,0,.973-1.275V1.112Q17.622,0,16.694,0H14.973L13.564,1.112,12.1,0H4.781Q.574.976,0,5.635c0,.716.91.6,1.193,0A3.8,3.8,0,0,1,5.681,3.3Z" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_8" data-name="Group 8" transform="translate(31.415 3.788)">
+          <path id="Path_8" data-name="Path 8" d="M3.629,0V5.647L6.225,7,8.744,5.647V0q3.52,1.6,3.52,3.5V8.208l-3.52,2.938H3.629L0,8.208V3.5A5.941,5.941,0,0,1,3.629,0Z" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Group_9" data-name="Group 9" transform="translate(35.078 14.919)">
+          <path id="Path_9" data-name="Path 9" d="M0,0H5.034V22.529a2.272,2.272,0,0,1-2.517,1.847A2.272,2.272,0,0,1,0,22.529Z" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_11-2" data-name="Group 11" transform="translate(22.626 245)">
+      <g id="Group_1-2" data-name="Group 1" transform="translate(10.595 -230.081)">
+        <path id="Path_1-2" data-name="Path 1" d="M.241,0V19.577" transform="translate(-0.241)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_2" data-name="Group 2" transform="translate(-1.53 -241.543) rotate(7)">
+        <path id="Path_2" data-name="Path 2" d="M1.32,16.436V4.821L0,3.626,1.32,0H3.2L4.71,3.626,3.2,4.821V16.436" fill="#e74c4c" stroke="#e74c4c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_3" data-name="Group 3" transform="translate(-3.938 -225.295) rotate(7)">
+        <path id="Path_3" data-name="Path 3" d="M0,0H5.506V2.836H0Z" fill="#e74c4c" stroke="#e74c4c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_4" data-name="Group 4" transform="translate(-3.503 -222.384) rotate(7)">
+        <path id="Path_4" data-name="Path 4" d="M0,0H3.933V13.549H0Z" fill="#e74c4c" stroke="#e74c4c" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_5-2" data-name="Group 5" transform="translate(-14.497 -237.722)">
+        <path id="Path_5-2" data-name="Path 5" d="M0,0H3.382V14.1H0Z" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_6-2" data-name="Group 6" transform="translate(-15.402 -223.622)">
+        <path id="Path_6-2" data-name="Path 6" d="M0-91.641H5.191v-17.881H0Z" transform="translate(0 109.522)" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_7-2" data-name="Group 7" transform="translate(-21.955 -243.874)">
+        <path id="Path_7-2" data-name="Path 7" d="M5.681,3.3V6.153H12.1l1.469-1.575,1.409,1.275h1.721a1.24,1.24,0,0,0,.973-1.275V1.112Q17.622,0,16.694,0H14.973L13.564,1.112,12.1,0H4.781Q.574.976,0,5.635c0,.716.91.6,1.193,0A3.8,3.8,0,0,1,5.681,3.3Z" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_8-2" data-name="Group 8" transform="translate(4.415 -241.212)">
+        <path id="Path_8-2" data-name="Path 8" d="M3.629,0V5.647L6.225,7,8.744,5.647V0q3.52,1.6,3.52,3.5V8.208l-3.52,2.938H3.629L0,8.208V3.5A5.941,5.941,0,0,1,3.629,0Z" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_9-2" data-name="Group 9" transform="translate(8.078 -230.081)">
+        <path id="Path_9-2" data-name="Path 9" d="M0,0H5.034V22.529a2.272,2.272,0,0,1-2.517,1.847A2.272,2.272,0,0,1,0,22.529Z" fill="none" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <path id="Path_10-2" data-name="Path 10" d="M-27-205H21.98v-40H-27Z" fill="none"/>
+    </g>
+  </g>
+</svg>

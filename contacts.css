@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,13 +11,9 @@
     font-size: 10px;
 }
 
-
-/*.corner-image {
-    position: absolute;
-    top: 0;
-    right: -100;
-    left: auto;
-}*/
+html {
+    scroll-behavior: smooth;
+}
 
 /*header , nav bar, logo*/
 
@@ -40,9 +36,8 @@ header {
     justify-content: space-around;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     border-radius: 50px;
-    z-index: 1000;   
+    
 }
-
 
 .logo {
     width: 150px;
@@ -61,108 +56,35 @@ header {
     background: #242f62;
     border-radius: 50px;
     color: white;
-    padding: 10px;  
-}
-
-.bg-img {
-    height: 1200px;
-    width: 1200px;
-    background-image: url("https://i.imgur.com/qs728QW.jpg");
-    position: absolute;
-    background-position:100% 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    margin-left: 75%;
-    margin-top: -30%;
-}
-
-/*form style*/
-
-.form-container {
-    width: 60%;
-    height: 90vh;
-    
-    margin: 0 auto;
-}
-
-.form-text {
-    width: 40%;
-    height: 30Vh;
-}
-
-.form-text h1 {
-    color: chocolate;
-    font-size: 50px;
-    margin: 50px auto 20px 50px;
-}
-
-.form-text p {
-    color: #242f62;
-    font-size: 20px;
-    margin: 50px auto 20px 100px;
-}
-
-.outer-form-wrapper {
-    width: 60%;
-    margin: 0 auto;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-}
-
-
-.inner-form-wrapper {
-    width: 400px;
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-}
-
-.inner-form-wrapper label {
-    padding: 20px;
-    font-size: 20px;
-}
-
-.inner-form-wrapper input, select {
-    width: 100%;
-    border-radius: 50px;
     padding: 10px;
-    margin: 10px;
 }
 
-.mid-table-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100%;
-    height: 100px;
-    
+.navbar:hover { 
+    cursor: pointer; 
 }
 
-.mid-table-wrapper select, input {
-    width: 80%;
+
+/*contacts section*/
+
+.wrapper {
+    width: 60vw;
+    height: 50vh;
+    border: 1px solid red;
+    margin: 2em auto;
 }
 
-.form-divider {
-    width: 80%; 
-    height: 2px;
-    background: chocolate;
-    margin: 20px auto;
+.prague-section-img {
+    width: 50%;
+    heighT: 100%;
+    overflow: hidden;
+    border-radius: 20px;
 }
 
-input[type="submit"] {
-    background: chocolate;
-    color: white;
-    font-size: 20px;
+img {
+    object-position: center top;
 }
 
-.form-checkbox {
-    height: 100px;
-}
+
 
 /*footer*/
 
@@ -238,4 +160,3 @@ input[type="submit"] {
     font-size: 2em;
     display: block;
 }
-

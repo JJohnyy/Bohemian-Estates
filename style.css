@@ -406,11 +406,12 @@ header {
 .footer-wrapper {
     width: 100vw;
     height: 25vh;
-    border: 1px solid red;
+    border-top: 5px solid chocolate;
     background:#242f62;
+    text-align: center;
 }
  
-.footer-top, .footer-bottom {
+/*.footer-top, .footer-bottom {
     width: 100vw;
     height: 12.5vh;
     border: 1px solid red;
@@ -419,35 +420,36 @@ header {
     /*display: flex;
     justify-content:center;
     align-items:center; */   
-}
 
-.footer-top-section {
+
+/*.footer-top-section {
     width: 30vw;
     height: 12.5vh;
     border: 1px solid red;
     margin: 0 auto;
-    display:flex;
+    text-align: right;*/
+
+    /*display:flex;
     justify-content:flex-end;
     align-items:flex-end;
-    flex-direction: column;
+    flex-direction: column;*/
+
+
+/*.footer-top-section span {
+    font-size: 2em;
+    color: white;
+    display: block;
+}*/
+
+
+.footer-logo {
+    margin-top: 5em;
 }
-
-.footer-logo { 
-    width: 30%;
-}
-
-.footer-logo img{
-     width: 20em;
-     padding-bottom: 2em;
-     padding-top: 3em; 
-
-}
-
 
 .social {
     width: 30%;
     height: 80px;
-    
+    margin: 2em auto;
     padding: 0;
 }
 
@@ -468,10 +470,9 @@ header {
     transform: translateY(-10px);
 }
 
-
-.footer-top-section span {
-    font-size: 2em;
+.footer-contact-section span { 
     color: white;
+    font-size: 2em;
+    display: block;
 }
-
 

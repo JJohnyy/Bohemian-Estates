@@ -16,14 +16,14 @@
                     <ul>
                         <a href="product.html"><li class="navbar">Garantovaný nájem</li></a>
                         <a href="contact-form.html"><li class="navbar form-connect">spočítat nájemné</li></a>
-                        <li class="navbar">kontakty</li>   
+                        <a href="contacts.html"><li class="navbar">kontakty</li> </a>  
                     </ul>
                 </nav>
             </header>
         </div>
     
     <main>
-       <!-- <img src="C:\Users\Jan Jaša\Documents\GitHub\Bohemian-Estates\assets\images\flat.jpg" alt="" class="corner-image">-->
+        <div class="bg-img"></div>
         <div class="form-container"> 
             <div class="form-text">
                 <h1>Zjistěte, za kolik se dá pronajmout váš byt</h1>
@@ -34,7 +34,7 @@
                         <form action="">
                             <label for="town">Město</label>
                             <select name="town" id="town">
-                                <option value="" placeholder="Město"></option>
+                                <option value=""></option>
                                 <option value="Praha">Praha</option>
                                 <option value="Brno">Brno</option>
                                 <option value="Ostrava">Ostrava</option>
@@ -59,11 +59,11 @@
                             </div>
                             <div class="form-divider"></div>
                             <label for="name">Jméno a Příjmení</label>
-                            <input type="text" name="name">
+                            <input type="text" name="name" placeholder="Jméno a Příjmení">
                             <label for="email">email</label>
-                            <input type="email" name="email">
+                            <input type="email" name="email" placeholder="vas@email.cz">
                             <label for="tel">telefon</label>
-                            <input type="tel" name="tel">
+                            <input type="tel" name="tel" placeholder="telefonní číslo">
                             <div class="form-checkbox">
                                <!--<input type="checkbox" name="rules">
                                 <label for="rules">souhlasím s podmínkami</label>
@@ -76,5 +76,25 @@
                 </div>   
         </div>        
     </main>
+    <footer>
+        <div class="footer-wrapper">
+               <div class="logo-social">
+                    <div class="footer-logo">   
+                        <a href="index.html"><img src="C:\Users\Jan Jaša\Documents\GitHub\Bohemian-Estates\assets\images\logo-white.svg" alt="" class="logo"></a>
+                    </div>    
+                    <div class="social">
+                        <a href="https://www.instagram.com/bohemian_estates/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCPrWFfzXAMGDP3y6HhUAqfg" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        <a href="https://www.facebook.com/BohemianEstates" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/bohemianestates?lang=en" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </div>
+                </div>
+            <div class="footer-contact-section">
+                <span>+420 222 222 500</span>
+                <span>info@bohemianestates.com </span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/9a2761774c.js" crossorigin="anonymous"></script> 
 </body>
 </html>
