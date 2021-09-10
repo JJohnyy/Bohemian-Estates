@@ -275,6 +275,12 @@ header {
     color: chocolate;
 }
 
+.calculator-bottom-wrapper-left p {
+    font-size: 1.5em;
+    color: chocolate;
+    width: 30em;
+}
+
 .calculator-bottom-wrapper-left p:hover {
     background: white;
     font-weight: bold;
@@ -292,5 +298,73 @@ header {
 }
 
 
+/*card-grid section */
 
+.grid-section-header {    
+    font-size: 50px;
+    text-align: center;
+    margin: 70px auto;
+    color: chocolate;
+}
+
+.mid-section {
+    height: 50vh;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.mid-section div {
+    height: 25vh;
+    width: 30%;
+}
+
+.first-row {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.second-row {
+    margin-right: 30px;
+}
+
+.mid-section h3 {
+    font-size: 20px;
+    color: chocolate;
+}
+
+.mid-section i {
+    font-size: 25px;
+    margin-left: 5px;
+    color:#242f62;
+}
+
+.mid-section p {
+    font-size: 18px;
+}
+
+.mid-section input[type="submit"] {
+    position: absolute;
+    font-size:20px;
+    bottom: 70px;
+    border: 2px solid chocolate;
+    background-color: white;
+    color: chocolate;
+    padding: 0.3em;
+     border-radius: 50px;    
+}
+
+/*contact section*/
+
+.contact-section-wrapper {
+    width: 60vw;
+    height: 25vh;
+    border: 1px solid red;
+    margin: 20px auto;
+}
 
