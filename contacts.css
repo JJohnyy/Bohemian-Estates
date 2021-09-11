@@ -71,6 +71,7 @@ header {
     height: 50vh;
     border: 1px solid red;
     margin: 2em auto;
+    display: flex;
 }
 
 .prague-section-img {
@@ -80,8 +81,34 @@ header {
     border-radius: 20px;
 }
 
-img {
-    object-position: center top;
+.prague-section-img>img {
+    width: 125%;
+    height: 125%;
+}
+
+.prague-section-contacts {
+    width: 50%;
+    heighT: 100%;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 5em;
+    text-align: center;
+    color: chocolate;
+    margin-left: 1em;
+}
+
+h2, p {
+    font-size: 2em;
+    margin-left: 1em;
+}
+
+.prague-section-contacts>img {
+    height: 100%;
+    width: 60%;
+    float: right;
 }
 
 

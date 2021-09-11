@@ -141,8 +141,8 @@ header {
 
 .info-highlight-wrapper-chocolate {
     background: chocolate;
-    width: 60vw;
-    height: 40vh;
+    width: 1500px;
+    height: 520px;
     margin: 100px 200px 10px auto;
     margin-top: 100px;
     border-radius: 10px;
@@ -190,22 +190,22 @@ header {
     justify-content: space-around;
 }
 
-.info-highlight-right-top, .info-highlight-right-bottom {  
+.info-highlight {  
     width: 15vw;
     height: 18vh;
     background: white;
     border-radius: 10px;
-    padding: 5em;
+    padding: 4%;
     line-height: 4em;
 
 }
 
-.info-highlight-right-top h3, .info-highlight-right-bottom h3 {    
+.info-highlight h3 {    
     font-size: 2.2em;
     color: #242f62;
 }
 
-.info-highlight-right-top ul li, .info-highlight-right-bottom ul li {
+.info-highlight ul li {
     font-size: 1.5em;
     margin-left: 20px;
 }
@@ -298,7 +298,7 @@ header {
 }
 
 
-/*card-grid section */
+/*big-card-grid section */
 
 .grid-section-header {    
     font-size: 50px;
@@ -476,3 +476,37 @@ header {
     display: block;
 }
 
+
+
+
+@media only screen and (max-width: 1337px) {
+    header {
+        width: 80%;
+    }
+    .navbar {
+        font-size: 20px;
+        margin-left: 10px
+    }
+    .logo {
+        width: 120px;
+    }
+}
+
+
+@media only screen and (max-width: 1167px) {
+    .header-text-wrapper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .header-text-top h1 {
+        font-size: 4em;
+    }
+    .header-text-bottom {
+        margin-top: 6em;
+    }
+    .header-text-bottom h3 {
+        font-size: 2em;
+    }
+}

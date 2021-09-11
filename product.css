@@ -186,17 +186,20 @@ h1 {
     height: 50vh;
     width: 60%;
     margin: 0 auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /*display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    position: relative;
+    position: relative;*/
 }
 
 .mid-section div {
     height: 25vh;
-    width: 30%;
+    width: 20vw;
+    /*width: 30%;*/
 }
 
 .first-row {
@@ -224,14 +227,14 @@ h1 {
 }
 
 .mid-section input[type="submit"] {
-    position: absolute;
+    /*position: absolute;*/
     font-size:20px;
     bottom: 70px;
     border: 2px solid chocolate;
     background-color: white;
     color: chocolate;
     padding: 0.3em;
-     border-radius: 50px;
+    border-radius: 50px;
     
 }
 
