@@ -16,6 +16,7 @@
 .header-container {
     width: 100%;
     height: 60vh;
+    min-height: 726px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -165,7 +166,7 @@ header {
     width: 60vw;
     height: 520px;
     /*margin: 10px auto 100px 200px;*/
-    margin: 2.5% auto 2% 5%;
+    margin: 0 auto 2% 5%;
     background: #242f62;
     border-radius: 10px;
     float: left;
@@ -234,7 +235,7 @@ header {
 /*calculator*/
 
 .calculator-outer-wrapper {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     background:rgb(236, 235, 235);
     
@@ -328,7 +329,7 @@ header {
 /*big-card-grid section */
 
 .grid-section-header {    
-    font-size: 50px;
+    font-size: 5em;
     text-align: center;
     margin: 70px auto;
     color: chocolate;
@@ -548,7 +549,7 @@ header {
     }
     .navbar {
         font-size: 25px;
-        margin-left: 10px
+        margin-left: 10px;
     }
     .logo {
         width: 120px;
@@ -574,6 +575,34 @@ header {
     }
 }
 
+@media only screen and (max-width: 1020px) {
+    .contact-section {
+        font-size: 1em;
+    }
+    .contact-section span {
+        font-size: 1.2em;
+    }
+    .contact-section i {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .grid-section-header {
+       font-size: 4em;
+    }
+    .mid-section {
+        width: 80%;
+    }
+    .first-row {
+        margin-left: 10px;
+    }
+    .second-row {
+        margin-right: 10px;
+    }
+
+}
+
 @media only screen and (max-width: 875px) {
     .header-text-top h1 {
         font-size: 4em;
@@ -585,3 +614,33 @@ header {
         font-size: 2em;
     }
 }
+
+@media only screen and (max-width: 835px) {
+    .calculator-inner-wrapper, .calculator-bottom-wrapper {
+        width: 600px;
+    }
+    .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-righ {
+        width: 300px;
+    }
+
+
+@media only screen and (max-width: 823px) {
+     header {
+         width: 90%;
+    }
+    .navbar {
+        font-size: 20px;
+        margin-left: 8px
+    }
+    .logo {
+        width: 110px;
+    }
+    .info-highlight-wrapper-chocolate, .info-highlight-wrapper-navy{
+        padding: 0 10px;
+    }
+    .info-highlight-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}    
+ 
