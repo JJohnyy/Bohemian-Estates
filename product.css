@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 
 *{
@@ -81,7 +82,7 @@ header {
     letter-spacing: 5px;
    /*line-height: 2em;*/
     border-bottom: 1px solid #242f62;;
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color:#242f62;
 }
@@ -92,10 +93,10 @@ header {
     letter-spacing: 2px;
     /*line-height: 2em;*/
     color: chocolate;
-    font-family: 'ZCOOL KuaiLe', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
-.info-container p {
+.info-container p, strong {
     width: 500px;
     margin-top: 20px;
     font-size: 20px;
@@ -113,6 +114,10 @@ header {
     background: chocolate;
     color: white;
     font-family: 'Staatliches', cursive;
+}
+
+.info-container input[type="submit"]:hover{
+    cursor: pointer;
 }
 
 .img-container {

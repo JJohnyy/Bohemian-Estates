@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
 
 
 *{
@@ -25,6 +25,7 @@
     background-position: 10% 10%;
     background-size: cover;
     background-repeat: no-repeat;
+    border: 1px solid red;
 }
 
 header {
@@ -52,15 +53,15 @@ header {
     display: inline-block;
     list-style-type: none;
     color: #242f62;
-    font-size: 25px; 
-    margin-left: 30px;
+    font-size: 2.5em; 
+    margin-left: 3em;
 }
 
 .form-connect {
     background: #242f62;
     border-radius: 50px;
     color: white;
-    padding: 10px;
+    padding: 0.5em;
 }
 
 .navbar:hover { 
@@ -73,7 +74,8 @@ header {
 .header-text-wrapper {
     width: 60%;
     margin: 0 auto;
-    height: 40vh;
+    /*height: 40vh;*/
+    height: 65%;
     
     /*mix-blend-mode: screen;*/
     
@@ -87,8 +89,9 @@ header {
 }
 
 .header-text-top p {
-    font-size: 2em;
+    font-size: 2.5em;
     color: white;
+    font-weight: bold;
 }
 
 .header-text-mid {
@@ -101,12 +104,17 @@ header {
     padding: 0.3em 0.6em;
     color: white;
     border-radius: 50px;
-}    
+}  
+
+.header-text-mid input:hover {
+    cursor: pointer;
+}
 
 .header-text-bottom {
     width: 60%;
     height: 12em;
-    margin-top: 10em;
+    /*margin-top: 10em;*/
+    margin-top: 7%;
     color: white;
     display: flex;
     justify-content: flex-start;
@@ -135,43 +143,50 @@ header {
 /*highlight info - two sections*/
 
 .info-highlight-wrapper {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
 .info-highlight-wrapper-chocolate {
     background: chocolate;
-    width: 1500px;
+    width: 60vw;
     height: 520px;
-    margin: 100px 200px 10px auto;
-    margin-top: 100px;
+    /*margin: 2.5% 5% 10px auto;*/
+    margin: 2.5% 5% 2% auto;
+    margin-top: 5%;
     border-radius: 10px;
     float:right;
     display: flex; 
     justify-content: center;
+    align-items: center;
 }
 
 .info-highlight-wrapper-navy {
     width: 60vw;
-    height: 40vh;
-    margin: 10px auto 100px 200px;
+    height: 520px;
+    /*margin: 10px auto 100px 200px;*/
+    margin: 2.5% auto 2% 5%;
     background: #242f62;
     border-radius: 10px;
     float: left;
     display: flex; 
     justify-content: center;
+    align-items: center;
 }
 
 
 .info-highlight-left {
-    height: 40vh;
-    width: 12vw;
+    /*height: 40vw;
+    width: 20vw;*/
+    height: 500px;
+    width: 400px;
     color: white;
-    margin-left: 200px;
+    /*margin-left: 10%;*/
+    border: 1px solid red;
 }
 
 .info-highlight-left h3 {
-    font-size: 4em;
+    font-size: 3.2em;
     margin-top: 60px;
 }
 
@@ -181,18 +196,23 @@ header {
 }
 
 .info-highlight-right {
-    height: 40vh;
-    width: 40vw;
-    margin-left: 200px;
+    /*height: 40vh;
+    width: 40vw;*/
+    height: 500px;
+    width: 400px;
+    margin-left: 10%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
+    border: 1px solid red;
 }
 
-.info-highlight {  
-    width: 15vw;
-    height: 18vh;
+.info-highlight { 
+    height: 240px;
+    width: 380px; 
+    /*width: 15vw;
+    height: 18vh;*/
     background: white;
     border-radius: 10px;
     padding: 4%;
@@ -228,12 +248,15 @@ header {
 }
 
 .calculator-inner-wrapper {
-    width: 40vw;
-    height: 40vh;
+   /* width: 40vw;
+    height: 40vh;*/
+    width: 800px;
+    height: 500px;
     background: white;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     margin: 0 auto;
     border-radius: 10px;
+    border: 1px solid red;
 }
 
 .calculator-inner-wrapper h2 {
@@ -250,20 +273,24 @@ header {
 }
 
 .calculator-bottom-wrapper {
-    width: 40vw;
-    height: 15vh;
+    width: 800px;
+    height: 178px;
     position: relative;
     margin-top: 6em;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
+    border: 1px solid red;
 }
 
 .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-right { 
-    height: 14vh;
-    width:  15vw;
+    /*height: 14vh;
+    width:  15vw;*/
+    width: 400px;
+    height: 178px;
     text-align: center;
+    border: 1px solid red;
 }  
 
 .calculator-bottom-wrapper-left h3, h4 .calculator-bottom-wrapper-right h3, h4, h3 {
@@ -326,6 +353,7 @@ header {
    /*width: 30%;*/
     width: 20vw;
     max-width: 360px;
+    min-width: 218.8px;
 }
 
 .first-row {
@@ -358,26 +386,46 @@ header {
    
 }*/
 
-.mid-section input[type="submit"] {
-   /*position: absolute;*/
+
+.grid-button {
+    width: 60%;
+    /*height: 10%;*/
+    margin: 0 auto;
+    display: flex;
+    justify-content:  center;
+}    
+
+.grid-button input {
     font-size:20px;
-    /*bottom: 70px;*/
     border: 2px solid chocolate;
     background-color: white;
     color: chocolate;
     padding: 0.3em;
-    border-radius: 50px;    
+    border-radius: 50px;
+    text-align: center;
 }
+
+/*.mid-section input[type="submit"] {
+   position: absolute;
+    font-size:20px;
+    bottom: 70px;
+    border: 2px solid chocolate;
+    background-color: white;
+    color: chocolate;
+    padding: 0.3em;
+    border-radius: 50px;*/    
+
 
 /*contact section*/
 
 .contact-section-wrapper {
     width: 60vw;
     height: 25vh;
-    margin: 20px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    border: 1px solid red;
 }
 
 .contact-section {
@@ -479,16 +527,43 @@ header {
 
 
 
-@media only screen and (max-width: 1337px) {
+@media only screen and (max-width: 1554px) {
     header {
         width: 80%;
     }
+    .contact-section {
+        font-size: 1.2em;
+    }
+    .contact-section span {
+        font-size: 1.2em;
+    }
+    .contact-section i {
+        font-size: 0.8em;
+    }
+}
+
+@media only screen and (max-width: 1337px) {
+    header {
+        width: 85%;
+    }
     .navbar {
-        font-size: 20px;
+        font-size: 25px;
         margin-left: 10px
     }
     .logo {
         width: 120px;
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .info-highlight-wrapper-chocolate, .info-highlight-wrapper-navy {
+        width: 90vw;
+    }
+    .header-container {
+       /* background-position: 60% 100%;*/
+    } 
+    .calculator-outer-wrapper>h2 { 
+        font-size: 4em;
     }
 }
 
