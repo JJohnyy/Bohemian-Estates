@@ -86,7 +86,7 @@ header {
     font-size: 5em;
     color: white;
     letter-spacing: 2px;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .header-text-top p {
@@ -127,7 +127,6 @@ header {
 .header-text-bottom div {
     height: 12em;
     width: 20em;
-    
     margin-bottom: 2em;
 }
 
@@ -156,6 +155,7 @@ header {
     margin: 2.5% 5% 2% auto;
     margin-top: 5%;
     border-radius: 10px;
+    padding: 0 10px;
     float:right;
     display: flex; 
     justify-content: center;
@@ -169,6 +169,7 @@ header {
     margin: 0 auto 2% 5%;
     background: #242f62;
     border-radius: 10px;
+    padding: 0 10px;
     float: left;
     display: flex; 
     justify-content: center;
@@ -237,8 +238,15 @@ header {
 .calculator-outer-wrapper {
     width: 100%;
     height: 70vh;
+    min-height: 847px;
     background:rgb(236, 235, 235);
-    
+    border: 1px solid red;  
+}
+
+.calculator-outer-heading {
+    width: 100%;
+    height: 200px;
+    border: 1px solid red;
 }
 
 .calculator-outer-wrapper h2 {
@@ -246,6 +254,7 @@ header {
     font-size: 5em;
     letter-spacing: 2px;
     padding: 2em;
+    clear: both;
 }
 
 .calculator-inner-wrapper {
@@ -276,8 +285,8 @@ header {
 .calculator-bottom-wrapper {
     width: 800px;
     height: 178px;
-    position: relative;
-    margin-top: 6em;
+    /*margin-top: 6em;*/
+    margin-top: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -563,17 +572,27 @@ header {
     .header-container {
        /* background-position: 60% 100%;*/
     } 
-    .calculator-outer-wrapper>h2 { 
+    .calculator-outer-wrapper h2 { 
         font-size: 4em;
+    }
+    .calculator-inner-wrapper h2 { 
+        font-size: 2em;
     }
 }
 
+/*@media only screen and (max-width: 1215px) {
+    .calculator-outer-wrapper h2 { 
+        font-size: 3em;
+    }
+}*/
 
 @media only screen and (max-width: 1167px) {
     .header-text-wrapper {
         width: 80%;
     }
 }
+
+
 
 @media only screen and (max-width: 1020px) {
     .contact-section {
@@ -635,12 +654,22 @@ header {
     .logo {
         width: 110px;
     }
-    .info-highlight-wrapper-chocolate, .info-highlight-wrapper-navy{
-        padding: 0 10px;
-    }
+   
     .info-highlight-wrapper {
         display: flex;
         flex-direction: column;
     }
 }    
- 
+
+@media only screen and (max-width: 768px) {
+    .contact-section-wrapper {
+        width: 90%;
+        height: 15vh;
+    }
+    .contact-section {
+        width: 33%;
+    }
+    .social {
+        margin:1em auto 0.2em auto;
+    }
+}

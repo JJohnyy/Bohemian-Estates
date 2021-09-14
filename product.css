@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
@@ -96,7 +95,7 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.info-container p, strong {
+.info-container p {
     width: 500px;
     margin-top: 20px;
     font-size: 20px;
@@ -478,5 +477,12 @@ h1 {
     color: white;
     font-size: 2em;
     display: block;
+}
+
+
+@media only screen and (max-width: 1315px) {
+    .cards-container {
+        width: 90%;
+    }
 }
 
