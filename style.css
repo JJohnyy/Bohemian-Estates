@@ -115,7 +115,7 @@ header {
     width: 60%;
     height: 12em;
     /*margin-top: 10em;*/
-    margin-top: 7%;
+    margin-top: 5%;
     color: white;
     display: flex;
     justify-content: flex-start;
@@ -124,11 +124,11 @@ header {
     
 }
 
-.header-text-bottom div {
+/*.header-text-bottom div {
     height: 12em;
     width: 20em;
     margin-bottom: 2em;
-}
+}*/
 
 .header-text-bottom h3 {
     font-size: 3em;
@@ -156,7 +156,7 @@ header {
     margin-top: 5%;
     border-radius: 10px;
     padding: 0 10px;
-    float:right;
+    position: relative;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -170,7 +170,7 @@ header {
     background: #242f62;
     border-radius: 10px;
     padding: 0 10px;
-    float: left;
+    position: relative;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -235,7 +235,7 @@ header {
 
 /*calculator*/
 
-.calculator-outer-wrapper {
+/calculator-outer-wrapper {
     width: 100%;
     height: 70vh;
     min-height: 847px;
@@ -258,8 +258,8 @@ header {
 }
 
 .calculator-inner-wrapper {
-   /* width: 40vw;
-    height: 40vh;*/
+    width: 40vw;
+    height: 40vh;
     width: 800px;
     height: 500px;
     background: white;
@@ -285,18 +285,18 @@ header {
 .calculator-bottom-wrapper {
     width: 800px;
     height: 178px;
-    /*margin-top: 6em;*/
+    margin-top: 6em;
     margin-top: 8%;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
+    border: 1px solid red;*/
 }
 
 .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-right { 
-    /*height: 14vh;
-    width:  15vw;*/
+    *height: 14vh;
+    width:  15vw;
     width: 400px;
     height: 178px;
     text-align: center;
@@ -569,9 +569,9 @@ header {
     .info-highlight-wrapper-chocolate, .info-highlight-wrapper-navy {
         width: 90vw;
     }
-    .header-container {
-       /* background-position: 60% 100%;*/
-    } 
+    /*.header-container {
+        background-position: 60% 100%;
+    } */
     .calculator-outer-wrapper h2 { 
         font-size: 4em;
     }
@@ -579,12 +579,6 @@ header {
         font-size: 2em;
     }
 }
-
-/*@media only screen and (max-width: 1215px) {
-    .calculator-outer-wrapper h2 { 
-        font-size: 3em;
-    }
-}*/
 
 @media only screen and (max-width: 1167px) {
     .header-text-wrapper {
@@ -594,24 +588,15 @@ header {
 
 
 
-@media only screen and (max-width: 1020px) {
+@media only screen and (max-width: 1024px) {
+    .contact-section-wrapper {
+        width: 90%;
+    }
     .contact-section {
-        font-size: 1em;
-    }
-    .contact-section span {
-        font-size: 1.2em;
-    }
-    .contact-section i {
-        font-size: 0.6em;
-    }
-}
-
-@media only screen and (max-width: 890px) {
-    .grid-section-header {
-       font-size: 4em;
+        width: 30vw;
     }
     .mid-section {
-        width: 80%;
+        width: 90%;
     }
     .first-row {
         margin-left: 10px;
@@ -619,7 +604,16 @@ header {
     .second-row {
         margin-right: 10px;
     }
+    .grid-section-header {
+        margin-top: 0px;
+    }
+}
 
+
+@media only screen and (max-width: 890px) {
+    .grid-section-header {
+       font-size: 4em;
+    }
 }
 
 @media only screen and (max-width: 875px) {
@@ -633,15 +627,6 @@ header {
         font-size: 2em;
     }
 }
-
-@media only screen and (max-width: 835px) {
-    .calculator-inner-wrapper, .calculator-bottom-wrapper {
-        width: 600px;
-    }
-    .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-righ {
-        width: 300px;
-    }
-
 
 @media only screen and (max-width: 823px) {
      header {
