@@ -35,7 +35,7 @@ section {
 }
 
 header {
-    height: 50px;
+    height: auto;
     width: 100%;
    margin-top: 20px;
     background: white;
@@ -44,16 +44,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
-    border-radius: 50px;
+   /* border-radius: 50px;*/
     
 }
 
 .logo {
+    padding-top: 10px;
     width: 150px;
     height: auto;
-    display: none;
 }
 
 .navbar {
@@ -126,7 +126,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
+    border: 1px solid red;  
 }
 
 /*.header-text-bottom div {
@@ -192,7 +193,7 @@ header {
 
 
 .info-highlight-left {
-    width: 90vw;
+   /* width: 90vw;*/
    /* height: 500px;*/
     color: white;
     /*margin-left: 10%;*/
@@ -228,7 +229,7 @@ header {
 
 .info-highlight { 
     height: auto;
-    width: 300px; 
+    width: 336px; 
     background: white;
     border-radius: 10px;
     padding: 10px;
@@ -253,8 +254,8 @@ header {
 
 .calculator-outer-wrapper {
     width: 100%;
-    
-    height: 70vh;
+    padding: 10px;
+    height: auto;
     /*min-height: 847px;*/
     background:rgb(236, 235, 235);
     border: 1px solid red;  
@@ -334,6 +335,12 @@ header {
     width: 30em;
 }
 
+.calculator-price {
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+}
+
 .calculator-bottom-wrapper-left p:hover {
     background: white;
     font-weight: bold;
@@ -353,41 +360,36 @@ header {
 
 /*big-card-grid section */
 
-/*.grid-section-header {    
-    font-size: 5em;
-    
+.grid-section-header {    
+    font-size: 1.8em;
     text-align: center;
-    margin: 70px auto;
+    margin: 20px auto;
     color: chocolate;
     border: 1px solid red;
 }
 
 .mid-section {
-    height: 50vh;
+    height: auto;
     /*min-height: 693px;*/
-   /* width: 60%;
-    
+    width: 99vw;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     border: 1px solid red;
-   /* display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    /*position: relative;
-}*/
+    flex-direction: column;
+    /*position: relative;*/
+}
 
-/*.mid-section>div {
-    height: 25vh;
+.mid-section div {
+    /*height: 25vh;*/
    /*width: 30%;*/
-  /*  width: 20vw;
-    max-width: 360px;
-    /*min-width: 218.8px;
-}*/
+  /*  width: 20vw;*/
+    width: 340px;
+    margin: 20px auto;
+}
 
-/*/*.first-row {
+/*.first-row {
     margin-top: 30px;
     margin-left: 30px;
 }
@@ -395,7 +397,7 @@ header {
 .second-row {
     margin-top: 10px;
     margin-right: 30px;
-}
+}*/
 
 .mid-section h3 {
     font-size: 20px;
@@ -431,27 +433,33 @@ header {
 
 /*contact section*/
 
-/*.contact-section-wrapper {
-    width: 60vw;
-   
-    height: 25vh;
+.contact-section-wrapper {
+    width: 99vw;
+   padding: 10px;
+    height: auto;
     /*min-height: 302.5px;*/
-  /*  margin: 0 auto;
+     margin: 0 auto;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    flex-direction: column;
     border: 1px solid red;
 }
 
 .contact-section {
-    height: 10vh;
+    height: auto;
     /*min-height: 121px;*/
-   /* width: 20vw;
+   /* width: 20vw;*/
+   padding: 10px;
     text-align: center;
     font-size: 1.5em;
     border: 1px solid red;
 }
 
+.contact-section-heading {
+    text-align: center;
+    font-size: 1.5em;
+}
 
 .contact-section i {
     font-size: 1em;
@@ -460,7 +468,7 @@ header {
 }
 
 .contact-section span {
-    font-size: 1.5em;
+    font-size: 1em;
     background-color: chocolate;
     padding: 0.3em;
     border-radius: 50px;
@@ -872,49 +880,48 @@ input[type="submit"] {
 } 
 /*footer*/
 
-/*.footer-wrapper {
+.footer-wrapper {
     width: 100vw;
 
-    height: 25vh;
+    height: auto;
     /*min-height: 338.25px;*/
-   /* border-top: 5px solid chocolate;
+    border-top: 5px solid chocolate;
     background:#242f62;
     text-align: center;
 }
  
-/*.footer-top, .footer-bottom {
+.footer-top, .footer-bottom {
     width: 100vw;
     height: 12.5vh;
     border: 1px solid red;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /*display: flex;
+    display: flex;
     justify-content:center;
-    align-items:center; */   
+    align-items:center;   
+}
 
-
-/*.footer-top-section {
-    width: 30vw;
-    height: 12.5vh;
+.footer-top-section {
+    width: 100vw;
+    height: auto;
     border: 1px solid red;
     margin: 0 auto;
-    text-align: right;*/
-
-    /*display:flex;
-    justify-content:flex-end;
+   /* text-align: right;*/
+    display:flex;
+    justify-content:center;
     align-items:flex-end;
-    flex-direction: column;*/
+    flex-direction: column;
+}
 
-
-/*.footer-top-section span {
+.footer-top-section span {
     font-size: 2em;
     color: white;
     display: block;
-}*/
+}
 
 
-/*.footer-logo {
+.footer-logo {
+    width: 150px;
     margin-top: 5em;
+    margin:20px auto 0 auto;
 }
 
 .social {
@@ -948,4 +955,198 @@ input[type="submit"] {
 }
 
 
+@media only screen and (min-width:768px) {
+    header {
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border-radius: 50px;
+    }
 
+    .header-text-top h1 {
+        font-size: 5em;
+    }
+
+    .header-text-top p {
+        font-size: 2.5em;
+    }
+
+    .header-text-mid input {
+        font-size: 1.8em;
+    }
+
+    .header-text-bottom {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .info-highlight-wrapper-chocolate, 
+    .info-highlight-wrapper-navy {
+        flex-direction: row;
+    }
+
+    .info-highlight-left h3 {
+        font-size: 3.6em;
+        max-width: 396.31px;
+    }
+    .info-highlight-left p {
+        font-size: 2em;
+        padding: 10px;
+        max-width: 396.31px;
+    }
+    
+    .calculator-bottom-wrapper {
+        flex-direction: row;
+    }
+
+    .contact-section-wrapper {
+        flex-direction: row;
+    }
+
+    .calculator-bottom-wrapper-right input {
+        font-size: 1.8em;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    header {
+        width: 60%;
+    }
+    
+    .header-text-wrapper {
+        width: 60%;
+        text-align: left;
+    }
+
+    .navbar { 
+        font-size: 2em;
+    }
+
+    .header-text-top h1 {
+        font-size: 5em;
+        margin: 50px 0px;
+    }
+
+    .header-text-top p {
+        font-size: 3em;
+    }
+
+    .header-text-mid input {
+        font-size: 2.5em;
+        margin: 30px 0;
+    }
+
+    .header-text-bottom {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .header-text-bottom h3 {
+        font-size: 3em;
+    }
+
+    .header-text-bottom p {
+        font-size: 2em;
+        padding-bottom: 30px;
+        max-width: 170px;
+    }
+    
+    .info-highlight-wrapper-chocolate {
+        width: 80vw;
+        margin-right: 7%;
+    }
+    .info-highlight-wrapper-navy {
+        width: 80vw;
+        margin-left: 6%;
+        margin-bottom: 50px;
+    }
+
+    .info-highlight-left h3 {
+        font-size: 4.2em;
+    }
+
+    .info-highlight-left p {
+        font-size: 2.5em;
+    }
+
+    .info-highlight h3 {
+        font-size: 2.5em;
+    }
+
+    .info-highlight ul li {
+        font-size: 1.8em;   
+    }
+
+    .calculator-outer-wrapper {
+        padding-bottom: 50px;
+     }
+
+     .calculator-outer-heading > h2 {
+        font-size: 4em;
+     } 
+
+     .calculator-inner-wrapper>h2 {
+         font-size: 3em;
+     }
+
+    .calculator-inner-wrapper,
+    .calculator-bottom-wrapper  { 
+        width: 60vw;
+        padding: 50px 0 50px 0; 
+    }   
+
+    .calculator-bottom-wrapper {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .calculator-price {
+        font-size: 3em;
+    }   
+
+    .grid-section-header {
+        font-size: 4em;
+    }
+
+    .mid-section { 
+        width: 90vw;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .contact-section-wrapper {
+        width: 60vw; 
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .navbar { 
+        font-size: 2.5em;
+    }
+    
+    .mid-section { 
+        width: 60vw;
+        max-width: 1349px;
+    }
+
+    .header-text-bottom {
+        justify-content: flex-start;
+        margin-right: 10px;
+    }
+
+    .info-highlight-wrapper-chocolate, 
+    .info-highlight-wrapper-navy {
+        width: 60vw;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .header-text-top h1 {
+        font-size: 7em;
+        margin: 80px 0px;
+    }
+}
