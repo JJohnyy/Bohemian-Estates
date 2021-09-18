@@ -434,7 +434,7 @@ header {
 /*contact section*/
 
 .contact-section-wrapper {
-    width: 99vw;
+    width: 100vw;
    padding: 10px;
     height: auto;
     /*min-height: 302.5px;*/
@@ -454,11 +454,13 @@ header {
     text-align: center;
     font-size: 1.5em;
     border: 1px solid red;
+    margin: 20px 0;
 }
 
 .contact-section-heading {
     text-align: center;
     font-size: 1.5em;
+    padding-bottom: 10px;
 }
 
 .contact-section i {
@@ -474,6 +476,20 @@ header {
     border-radius: 50px;
     color: white;
 }   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*this is where product page starts*/
@@ -610,7 +626,6 @@ header {
 }
 
 
-
 /*mid section*/
 
 .header-center {    
@@ -725,6 +740,15 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
 /*contact form*/
 .contact {
     width: 100vw;
@@ -805,6 +829,19 @@ header {
     font-size: 1.6em;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*contact-form-page*/
 
@@ -906,10 +943,22 @@ input[type="submit"] {
     height: 100px;
 } 
 
+
+
+
+
+
+
+
+
+
+
 /*contact page*/
 
 .three-contacts-outer-wrapper {
     width: 100vw;
+    max-width: 2000px;
+    margin: 0 auto;
     height: auto;
     display: flex;
     align-items: center;
@@ -920,6 +969,8 @@ input[type="submit"] {
 
 .three-contacts-inner-wrapper {
     width: 100vw;
+    max-width: 467.91px;
+    border: 1px solid red;
 }
 
 .three-contacts-inner-wrapper i {
@@ -940,6 +991,8 @@ input[type="submit"] {
 
 .contacts-map-section {
     width: 100vw;
+    max-width: 2000px;
+    margin: 0 auto;
     height: auto;
     border: 1px solid red;
     display: flex;
@@ -950,18 +1003,22 @@ input[type="submit"] {
 
 .contacts-map-section img {
     width: 90vw;
+    max-width: 700px;
 }
 
 .town-contacts-header {
     font-size: 2em;
+    padding: 40px 0;
 }
 
 .town-contacts-card {
+    max-width: 395.19px;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     border-radius: 50px;
     padding-left: 30px;
     margin: 10px 0;
     font-size: 2em;
+    border: 1px solid red;
 }
 
 .town-contacts-card h5, p {
@@ -970,6 +1027,8 @@ input[type="submit"] {
 
 .three-contacts-outer-wrapper-bottom {
     width: 100vw;
+    max-width: 2000px;
+    margin: 0 auto;
     height: auto;
     display: flex;
     justify-content: center;
@@ -980,8 +1039,10 @@ input[type="submit"] {
 
 .three-contacts-inner-wrapper-bottom  {
     width: 90vw;
+    max-width: 439.91px;
     height: auto;
     border: 1px solid red;
+    margin: 20px 0;
 }
 
 .three-contacts-inner-wrapper-bottom input{
@@ -1092,7 +1153,20 @@ input[type="submit"] {
 
 
 
+
+
+
+
+
 /*media section*/
+
+
+
+
+
+
+
+
 
 
 
@@ -1167,12 +1241,39 @@ input[type="submit"] {
 
 
 
+
+    /*contact page*/
+    .three-contacts-outer-wrapper {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .three-contacts-inner-wrapper {
+        width: 49vw;
+        margin-bottom: 50px;
+    }
+
+    .town-contacts-card {
+        width: 60vw;
+    }
+
+    .three-contacts-outer-wrapper-bottom {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .three-contacts-inner-wrapper-bottom {
+        width: 49vw;
+    }
+
 }
+
+
 
 
 @media only screen and (min-width: 1024px) {
     header {
-        width: 60%;
+        width: 80%;
     }
     
     .header-text-wrapper {
@@ -1376,7 +1477,7 @@ input[type="submit"] {
     .inner-form-wrapper {
         margin-top: 500px;
     }
-}
+
 
 @media only screen and (min-width: 1416px) {
     .info-container > h2 {
@@ -1420,6 +1521,23 @@ input[type="submit"] {
         max-width: 849.59px;
         padding-bottom: 50px;
     }
+
+
+    /*contact page*/
+    .contacts-map-section {
+        flex-direction: row;
+    }
+
+    .contacts-map-section img {
+        padding-right: 40px;
+    }
+
+    .town-contacts-header {
+        font-size: 2.5em;
+        padding: 20px 0;
+    }
+
+
 }
 
 
