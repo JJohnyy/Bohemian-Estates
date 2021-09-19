@@ -560,7 +560,7 @@ header {
 .img-container img {
     border-radius: 10px;    
     display: none;
-    max-width: 700px;
+    max-width: 600px;
 }
 
 /*cards, products*/
@@ -991,13 +991,25 @@ input[type="submit"] {
     max-width: 395.19px;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     border-radius: 50px;
-    padding-left: 30px;
+    padding: 10px 40px 10px 30px;
     margin: 10px 0;
     font-size: 2em;
 }
 
+.town-contacts-card details>summary {
+    list-style: none;
+    cursor: pointer;
+}
+
 .town-contacts-card h5, p {
     font-size: 1.5em;
+}
+
+.town-contacts-card  i {
+    font-size: 1em;
+    float: right;
+    /*padding-right: 40px;*/
+    padding-top: 6px;
 }
 
 .three-contacts-outer-wrapper-bottom {
@@ -1094,7 +1106,6 @@ input[type="submit"] {
     height: 80px;
     margin: 2em auto;
     padding: 0;
-    border: 1px solid red;
 }
 
 .social i{
@@ -1334,17 +1345,18 @@ input[type="submit"] {
 
     .calculator-inner-wrapper,
     .calculator-bottom-wrapper  { 
-        width: 60vw;
+        width: 40vw;
         padding: 50px 0 50px 0; 
     }   
 
     .calculator-bottom-wrapper {
         justify-content: flex-end;
-        align-items: flex-end;
+        align-items: flex-start;
     }
 
     .calculator-price {
         font-size: 3em;
+        padding: 50px 0;
     }   
 
     .grid-section-header {
