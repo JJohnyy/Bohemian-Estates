@@ -31,7 +31,6 @@ section {
     background-position: 10% 10%;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 1px solid red;
 }
 
 header {
@@ -82,7 +81,6 @@ header {
     width: 100%;
     margin: 0 auto;
     height: auto;
-    border: 1px solid red;
     text-align: center;
     /*mix-blend-mode: screen;*/   
 }
@@ -127,7 +125,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;  
 }
 
 /*.header-text-bottom div {
@@ -187,7 +184,7 @@ header {
     display: flex; 
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
     
 }
 
@@ -198,7 +195,6 @@ header {
     color: white;
     /*margin-left: 10%;*/
     padding: 0 10px;
-    border: 1px solid red;
 }
 
 /*.navy-bottom {
@@ -206,12 +202,14 @@ header {
 }*/
 
 .info-highlight-left h3 {
-    font-size: 2em;
+    font-size: 1.8em;
+    padding-bottom: 10px;
+    padding-top: 10px;
     /*margin-top: 60px;*/
 }
 
 .info-highlight-left p {
-    font-size: 1.2em;
+    font-size: 1.4em;
     /*margin-top: 20px;*/
 }
 
@@ -224,7 +222,6 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .info-highlight { 
@@ -245,7 +242,7 @@ header {
 }
 
 .info-highlight ul li {
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-left: 20px;
 }
 
@@ -257,14 +254,12 @@ header {
     padding: 10px;
     height: auto;
     /*min-height: 847px;*/
-    background:rgb(236, 235, 235);
-    border: 1px solid red;  
+    background:rgb(236, 235, 235); 
 }
 
 .calculator-outer-heading {
     width: 100%;
     height: auto;
-    border: 1px solid red;
 }
 
 .calculator-outer-heading > h2 {
@@ -282,7 +277,6 @@ header {
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     margin: 0 auto;
     border-radius: 10px;
-    border: 1px solid red;
 }
 
 .calculator-inner-wrapper>h2 {
@@ -309,7 +303,6 @@ header {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-right { 
@@ -365,7 +358,6 @@ header {
     text-align: center;
     margin: 20px auto;
     color: chocolate;
-    border: 1px solid red;
 }
 
 .mid-section {
@@ -373,7 +365,6 @@ header {
     /*min-height: 693px;*/
     width: 99vw;
     margin: 0 auto;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -443,7 +434,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .contact-section {
@@ -453,7 +443,6 @@ header {
    padding: 10px;
     text-align: center;
     font-size: 1.5em;
-    border: 1px solid red;
     margin: 20px 0;
 }
 
@@ -470,7 +459,7 @@ header {
 }
 
 .contact-section span {
-    font-size: 1em;
+    font-size: 1.2em;
     background-color: chocolate;
     padding: 0.3em;
     border-radius: 50px;
@@ -502,7 +491,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
 }
 
 .info-container {
@@ -510,7 +498,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .info-container h2 {
@@ -547,7 +534,6 @@ header {
     line-height: 2em;
     display: block;
     color: #242f62;
-    border: 1px solid red;
 }
 
 .info-container input[type="submit"] {
@@ -585,7 +571,6 @@ header {
     margin: 50px auto;
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
     max-width: 1133px;
     
 }
@@ -760,7 +745,6 @@ header {
     align-items: center;
     flex-direction: column;
     margin-top: 50px;
-    border: 1px solid red;
 }
 
 .contact-left {
@@ -786,9 +770,9 @@ header {
     height: 50px;
     margin: 10px;
     border-radius: 50px;
-    color: #242f62;
     padding: 10px;
     font-size: 18px;
+    border-color: #242f62;
 }
 
 .contact-right input[type="checkbox"] {
@@ -818,7 +802,6 @@ header {
     height: auto;
     margin: 10px auto;
     text-align: center;
-    border: 1px solid red;
 }  
 
 .small-grid-box img {
@@ -850,7 +833,6 @@ header {
 .form-container {
     width: 100vw;
     height: auto;
-    border: 1px solid red;
     margin: 0 auto;
     max-width: 1022px;
     
@@ -860,7 +842,6 @@ header {
     width: 100vw;
     margin: 0 auto;
     height: auto;
-    border: 1px solid red;
     max-width: 463px;
 }   
 
@@ -884,7 +865,6 @@ header {
     height: auto;
     display: flex;
     justify-content: center;
-    border: 1px solid red;
 }
 
 
@@ -895,7 +875,6 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    border: 1px solid red;
     max-width: 460px;
     
 }
@@ -905,8 +884,8 @@ header {
     font-size: 2em;
 }
 
-.inner-form-wrapper input, select, input, option {
-    width: 95%;
+.inner-form-wrapper .option, select, .form-selector {
+    width: 95% !important;
     border-radius: 50px;
     padding: 10px;
     font-size: 1.8em;
@@ -922,7 +901,7 @@ header {
     
 }
 
-.mid-table-wrapper select, input {
+.mid-table-wrapper .mid-table-buttton #dispozition {
     width: 80%;
 }
 
@@ -964,13 +943,11 @@ input[type="submit"] {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .three-contacts-inner-wrapper {
     width: 100vw;
     max-width: 467.91px;
-    border: 1px solid red;
 }
 
 .three-contacts-inner-wrapper i {
@@ -994,7 +971,6 @@ input[type="submit"] {
     max-width: 2000px;
     margin: 0 auto;
     height: auto;
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1018,7 +994,6 @@ input[type="submit"] {
     padding-left: 30px;
     margin: 10px 0;
     font-size: 2em;
-    border: 1px solid red;
 }
 
 .town-contacts-card h5, p {
@@ -1034,14 +1009,12 @@ input[type="submit"] {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid red;
 }
 
 .three-contacts-inner-wrapper-bottom  {
     width: 90vw;
     max-width: 439.91px;
     height: auto;
-    border: 1px solid red;
     margin: 20px 0;
 }
 
@@ -1051,7 +1024,9 @@ input[type="submit"] {
     color: #242f62;
     font-size: 1.5em;
     width: auto;
+    margin-top: 10px;
     padding: 5px;
+    border-radius: 50px;
 }
 
 
@@ -1086,7 +1061,6 @@ input[type="submit"] {
 .footer-top, .footer-bottom {
     width: 100vw;
     height: 12.5vh;
-    border: 1px solid red;
     display: flex;
     justify-content:center;
     align-items:center;   
@@ -1095,7 +1069,6 @@ input[type="submit"] {
 .footer-top-section {
     width: 100vw;
     height: auto;
-    border: 1px solid red;
     margin: 0 auto;
    /* text-align: right;*/
     display:flex;
@@ -1201,13 +1174,17 @@ input[type="submit"] {
     }
 
     .info-highlight-left h3 {
-        font-size: 3.6em;
+        font-size: 3em;
         max-width: 396.31px;
     }
     .info-highlight-left p {
         font-size: 2em;
         padding: 10px;
         max-width: 396.31px;
+    }
+
+    .grid-section-header {
+        font-size: 2.5em;
     }
     
     .calculator-bottom-wrapper {
@@ -1251,6 +1228,7 @@ input[type="submit"] {
     .three-contacts-inner-wrapper {
         width: 49vw;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     .town-contacts-card {
@@ -1260,10 +1238,12 @@ input[type="submit"] {
     .three-contacts-outer-wrapper-bottom {
         flex-direction: row;
         flex-wrap: wrap;
+        align-items: flex-start;
     }
 
     .three-contacts-inner-wrapper-bottom {
-        width: 49vw;
+        width: 39vw;
+        padding-left: 50px;
     }
 
 }
@@ -1567,4 +1547,5 @@ input[type="submit"] {
         font-size: 7em;
         margin: 80px 0px;
     }
+
 }
