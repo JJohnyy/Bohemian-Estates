@@ -27,7 +27,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('../assets/images/pexels-guillaume-meurice-2529184.jpg');
+    background-image: url('https://i.imgur.com/ol20ZSd.jpg');
     background-position: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@ header {
     background: #242f62;
     border-radius: 50px;
     color: white;
-    padding: 0.2em;
+    padding: 0.4em;
 }
 
 /*header-text and info*/
@@ -116,13 +116,15 @@ header {
     margin-top: 3em;
 }
 
-.header-text-mid input {
-    font-size: 1.2em;
-    background-color: chocolate;
+.header-text-mid a {
+    font-size: 2em;
+    background-color: #AD1010;
     padding: 0.3em 0.6em;
     color: white;
     border-radius: 50px;
-    border-color: chocolate;
+    border-color: #AD1010;
+    text-decoration: none;
+    font-weight: bold;
 }  
 
 .header-text-mid input:hover {
@@ -170,7 +172,7 @@ header {
 }
 
 .info-highlight-wrapper-chocolate {
-    background: chocolate;
+    background: #AD1010;
     width: 99vw;
     height: auto;
     margin: 5% auto;
@@ -287,6 +289,7 @@ header {
 
 .calculator-inner-wrapper {
     width: 95vw;
+    max-width: 956.188px;
     height: auto;
     padding-top: 2em;
     background: white;
@@ -302,14 +305,13 @@ header {
     font-weight: bold; 
 }
 
-.calculator-outer-wrapper>h5 {
+.calculator-outer-wrapper > h5 {
     text-align: center;
     font-size: 3em;
     color: chocolate;
 }
 
 .calculator-bottom-wrapper {
-    width: 90vw;
     height: auto;
     /*margin-top: 6em;
     margin-top: 8%;*/
@@ -335,12 +337,12 @@ header {
 
 .calculator-bottom-wrapper-left p, summary {
     font-size: 1.5em;
-    color: chocolate;
+    color: #AD1010;
 }
 
 .calculator-bottom-wrapper-left p {
     font-size: 1.5em;
-    color: chocolate;
+    color: #AD1010;
     width: 30em;
 }
 
@@ -356,15 +358,22 @@ header {
     padding: 1em;
 }
 
-.calculator-bottom-wrapper-right input {
-    background: chocolate;
+.calculator-bottom-wrapper-right > a {
+    background: #AD1010;
     padding: 0.2em 1.2em;
-    font-size: 1.2em;
     border-radius: 50px;
     color: white;
     font-weight: bold;
-    margin: 1em;
+    font-size: 2em;
+    text-decoration: none;
 }
+
+/*.calculator-bottom-wrapper-right> a {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}*/
+
 
 
 /*big-card-grid section */
@@ -373,7 +382,7 @@ header {
     font-size: 1.8em;
     text-align: center;
     margin: 20px auto;
-    color: chocolate;
+    color: #AD1010;
 }
 
 .mid-section {
@@ -408,7 +417,7 @@ header {
 
 .mid-section h3 {
     font-size: 20px;
-    color: chocolate;
+    color: #AD1010;
 }
 
 .mid-section i {
@@ -476,11 +485,18 @@ header {
 
 .contact-section span {
     font-size: 1.2em;
-    background-color: chocolate;
+    background-color: #AD1010;
     padding: 0.3em;
     border-radius: 50px;
     color: white;
 }   
+
+.contact-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
 
 
 
@@ -507,7 +523,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}  
 
 .info-container {
     display: flex;
@@ -516,34 +532,31 @@ header {
     flex-direction: column;
 }
 
-.info-container h2 {
-    width: 90vw;
+.info-container h1 {
+    /*width: 90vw;*/
     margin: 35px auto;
     font-size: 2.5em;
     letter-spacing: 5px;
     line-height: 2em;
     text-align: center;
-    border-bottom: 1px solid #242f62;;
-    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     color:#242f62;
-    border-bottom: 1px solid #242f62;
 }
 
 .info-container h3 {
-    width: 90vw;
+    /*width: 90vw;*/
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 2px;
     line-height: 2em;
     text-align: center;
-    color: chocolate;
-    font-family: 'Roboto', sans-serif;
+    color: #AD1010;
     
 }
 
 .info-container p {
     width: 90vw;
+    max-width: 532.72px;
     margin-top: 20px;
     font-size: 1.5em;
     letter-spacing: 2px;
@@ -552,26 +565,19 @@ header {
     color: #242f62;
 }
 
-.info-container input[type="submit"] {
-    font-size: 1.5em;
+.info-container a {
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bold;
     margin: 35px auto;
     padding: 0.4em 0.5em;
     border-radius: 50px;
     letter-spacing: 2px;
-    background: chocolate;
-    color: white;
-    font-family: 'Staatliches', cursive;
-}
-
-.info-container input[type="submit"]:hover{
+    background: white;
+    color: #AD1010;
+    border: 2px solid #AD1010;
     cursor: pointer;
 }
-
-/*.img-container {
-    padding: 20px 20px 20px 20px;
-    border-radius: 10px;
-    border:1px solid #242f62;
-}*/
 
 .img-container img {
     border-radius: 10px;    
@@ -604,10 +610,10 @@ header {
 }
 
 .card h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     padding: 10px;
     margin: 20px auto;
-    color: chocolate;
+    color: #AD1010;
 }
 
 .card hr {
@@ -633,7 +639,7 @@ header {
     font-size: 2.5em;
     text-align: center;
     margin: 70px auto;
-    color: chocolate;
+    color: #AD1010;
 }
 
 /*.mid-section {
@@ -723,14 +729,14 @@ header {
 }
 
 .one{
-    border-top: 1px solid chocolate;
-    border-left: 1px solid chocolate;
+    border-top: 1px solid #AD1010;
+    border-left: 1px solid #AD1010;
 }
 
 
 .two {
-    border-top: 1px solid chocolate;
-    border-right: 1px solid chocolate;  
+    border-top: 1px solid #AD1010;
+    border-right: 1px solid #AD1010;  
 }
 
 
@@ -864,7 +870,7 @@ header {
 }   
 
 .form-text>h1 {
-    color: chocolate;
+    color: #AD1010;
     font-size: 2em;
     padding: 20px;
     text-align: center;
@@ -926,14 +932,15 @@ header {
 .form-divider {
     width: 80%; 
     height: 2px;
-    background: chocolate;
+    background: #AD1010;
     margin: 2em auto;
 }
 
 input[type="submit"] {
-    background: chocolate;
+    background: #AD1010;
     color: white;
     font-size: 2em;
+    border: 1px solid #AD1010;
 }
 
 .form-checkbox {
@@ -1048,14 +1055,15 @@ input[type="submit"] {
     margin: 20px 0;
 }
 
-.three-contacts-inner-wrapper-bottom input{
+.three-contacts-inner-wrapper-bottom > a{
     background: white;
-    border:1px solid #242f62;
+    border: 2px solid #242f62;
     color: #242f62;
-    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2em;
     width: auto;
-    margin-top: 10px;
-    padding: 5px;
+    padding: 2px;
     border-radius: 50px;
     cursor: pointer;
 }
@@ -1084,7 +1092,7 @@ input[type="submit"] {
 
     height: auto;
     /*min-height: 338.25px;*/
-    border-top: 5px solid chocolate;
+    border-top: 5px solid #AD1010;
     background:#242f62;
     text-align: center;
 }
@@ -1131,7 +1139,7 @@ input[type="submit"] {
     width: 35px;
     font-size: 15px;
     color: white;
-    background: chocolate;
+    background: #AD1010;
     padding: 10px;
     text-align: center;
     margin-right: 5px;
@@ -1179,6 +1187,11 @@ input[type="submit"] {
         flex-direction: row;
         justify-content: space-evenly;
         border-radius: 50px;
+        height: 80px;
+    }
+
+    #form-connect > a {
+        padding: 0.4em;
     }
 
     .navbar {
@@ -1286,6 +1299,11 @@ input[type="submit"] {
 
 
 @media only screen and (min-width: 1024px) {
+    
+    .logo {
+        width: 200px;
+    }
+    
     header {
         width: 80%;
     }
@@ -1297,6 +1315,10 @@ input[type="submit"] {
 
     .navbar>a { 
         font-size: 2em;
+    }
+
+    .info-container h1 {
+        font-size: 5em;
     }
 
     .header-text-top h1 {
@@ -1368,8 +1390,7 @@ input[type="submit"] {
 
     .calculator-inner-wrapper,
     .calculator-bottom-wrapper  { 
-        width: 40vw;
-        padding: 50px 0 50px 0; 
+        padding: 50px 0 10px 0; 
     }   
 
     .calculator-bottom-wrapper {
@@ -1557,7 +1578,7 @@ input[type="submit"] {
 
 
 @media only screen and (min-width: 1500px) {
-    .navbar>a { 
+    .navbar > a { 
         font-size: 2.5em;
     }
     

@@ -26,7 +26,6 @@
     
     <main>
         <div class="bg-img"></div>
-        </div>
         <div class="form-container"> 
             <div class="form-text">
                 <h1>Find out how much your apartment can be rented for</h1>
@@ -34,10 +33,9 @@
             </div>
                 <div class="outer-form-wrapper">
                     <div class="inner-form-wrapper">
-                        <form action="" method="post">
+                        <form action="www.bohemianestates.com" method="post">
                             <label for="town">City</label>
                             <select name="town" id="town">
-                                <option class="option" value="" ></option>
                                 <option class="option" value="Praha">Prague</option>
                                 <option class="option" value="Brno">Brno</option>
                                 <option class="option" value="Ostrava">Ostrava</option>
@@ -45,8 +43,7 @@
                             <div class="mid-table-wrapper">
                                 <div class="mid-table-left">
                                 <label for="disposition">Disposition</label>
-                                    <select name="dispozition" id="dispozition">
-                                        <option  class="option" value="disabled" selected hidden></option>
+                                    <select name="dispozition" id="disposition">
                                         <option class="option" value="1+kk">1+kk</option>
                                         <option class="option" value="2+kk">2+kk</option>
                                         <option class="option" value="3+kk">3+kk</option>
@@ -57,16 +54,16 @@
                                 </div>
                                 <div class="mid-table-right">
                                     <label for="size">Acreage</label>
-                                    <input class="form-selector" type="number" id="size" name="size" placeholder="32m2" class="mid-table-buttton">
+                                    <input class="form-selector mid-table-buttton" type="number" id="size" name="size" placeholder="32m2">
                                 </div>
                             </div>
                             <div class="form-divider"></div>
                             <label for="name">Name and surname</label>
-                            <input class="form-selector" type="text" name="name" placeholder="Name and surname">
+                            <input class="form-selector" type="text" id="name" placeholder="Name and surname">
                             <label for="email">email</label>
-                            <input class="form-selector" type="email" name="email" placeholder="your@email.cz">
+                            <input class="form-selector" type="email" id="email" placeholder="your@email.cz">
                             <label for="tel">telephone</label>
-                            <input class="form-selector" type="tel" name="tel" placeholder="telephone number">
+                            <input class="form-selector" type="tel" id="tel" placeholder="telephone number">
                             <div class="form-checkbox">
                                <!--<input type="checkbox" name="rules">
                                 <label for="rules">souhlasím s podmínkami</label>
