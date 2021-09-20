@@ -27,8 +27,8 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('https://i.imgur.com/8m3NyEC.jpg');
-    background-position: 10% 10%;
+    background-image: url('../assets/images/pexels-guillaume-meurice-2529184.jpg');
+    background-position: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -36,7 +36,7 @@ section {
 header {
     height: auto;
     width: 100%;
-   margin-top: 20px;
+    margin-top: 20px;
     background: white;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +50,7 @@ header {
 }
 
 .logo {
-    padding-top: 10px;
+    padding: 10px;
     width: 150px;
     height: auto;
 }
@@ -58,22 +58,31 @@ header {
 .navbar {
     display: inline-block;
     list-style-type: none;
+    /*font-size: 1.7em;
+    margin: 10px;*/
+    cursor: pointer; 
+    padding-bottom: 10px;
+}
+
+.navbar > a {
     color: #242f62;
     font-size: 1.7em;
     margin: 10px;
+    text-decoration: none;
 }
 
-.form-connect {
+.navbar > a:visited {
+    color: #242f62;
+    text-decoration: none;
+}
+
+
+#form-connect > a {
     background: #242f62;
     border-radius: 50px;
     color: white;
-    padding: 0.5em;
+    padding: 0.2em;
 }
-
-.navbar:hover { 
-    cursor: pointer; 
-}
-
 
 /*header-text and info*/
 
@@ -88,14 +97,18 @@ header {
 .header-text-top h1 {
     margin: 20px auto;
     font-size: 3em;
-    color: white;
+    color: black;
+    background-color: chocolate;
+    mix-blend-mode: luminosity;
     letter-spacing: 2px;
     font-weight: 900;
 }
 
 .header-text-top p {
     font-size: 1.5em;
-    color: white;
+    color: black;
+    background-color: chocolate;
+    mix-blend-mode: luminosity;
     font-weight: bold;
 }
 
@@ -109,6 +122,7 @@ header {
     padding: 0.3em 0.6em;
     color: white;
     border-radius: 50px;
+    border-color: chocolate;
 }  
 
 .header-text-mid input:hover {
@@ -120,7 +134,9 @@ header {
     height: auto;
     /*margin-top: 10em;*/
     margin-top: 5%;
-    color: white;
+    color: black;
+    background-color: chocolate;
+    mix-blend-mode: luminosity;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -202,7 +218,7 @@ header {
 }*/
 
 .info-highlight-left h3 {
-    font-size: 1.8em;
+    font-size: 3em;
     padding-bottom: 10px;
     padding-top: 10px;
     /*margin-top: 60px;*/
@@ -272,7 +288,7 @@ header {
 .calculator-inner-wrapper {
     width: 95vw;
     height: auto;
-
+    padding-top: 2em;
     background: white;
     box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
     margin: 0 auto;
@@ -773,6 +789,8 @@ header {
     padding: 10px;
     font-size: 18px;
     border-color: #242f62;
+    background: white;
+    color: black;
 }
 
 .contact-right input[type="checkbox"] {
@@ -1039,6 +1057,7 @@ input[type="submit"] {
     margin-top: 10px;
     padding: 5px;
     border-radius: 50px;
+    cursor: pointer;
 }
 
 
@@ -1162,6 +1181,10 @@ input[type="submit"] {
         border-radius: 50px;
     }
 
+    .navbar {
+        padding-bottom: 0px;
+    } 
+
     .header-text-top h1 {
         font-size: 5em;
     }
@@ -1272,7 +1295,7 @@ input[type="submit"] {
         text-align: left;
     }
 
-    .navbar { 
+    .navbar>a { 
         font-size: 2em;
     }
 
@@ -1534,7 +1557,7 @@ input[type="submit"] {
 
 
 @media only screen and (min-width: 1500px) {
-    .navbar { 
+    .navbar>a { 
         font-size: 2.5em;
     }
     
