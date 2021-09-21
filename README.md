@@ -21,12 +21,22 @@ There are total of 4 pages: home page, product page - about main product - guara
 
 ### Resposivness
 
-All 4 pages were tested in responsivness in chrome-developer tools
+All 4 pages were tested in responsivness in chrome-developer tools and also in ami.resposivedesign
 
 ![](https://i.imgur.com/r3DodsW.png)
 
 
 
+### validator and lighthouse tests
+
+
+!(https://i.imgur.com/YUj6aB6.png)
+!(https://i.imgur.com/pxnLqUZ.png)
+!(https://i.imgur.com/5k7QqbX.png)
+!(https://i.imgur.com/upgvJSH.png)
+!(https://i.imgur.com/7uVxXS0.png)
+!(https://i.imgur.com/T5965Us.png)
+!(https://i.imgur.com/XNgBKmM.png)
 
 
 
