@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 
 
 
@@ -27,7 +26,7 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('https://i.imgur.com/ol20ZSd.jpg');
+    background-image: url('../images/pexels-guillaume-meurice-2529184.jpg');
     background-position: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,9 +43,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);
-   /* border-radius: 50px;*/
-    
+    box-shadow: 0px 0px 10px 3px rgb(201, 199, 199);   
 }
 
 .logo {
@@ -58,8 +55,6 @@ header {
 .navbar {
     display: inline-block;
     list-style-type: none;
-    /*font-size: 1.7em;
-    margin: 10px;*/
     cursor: pointer; 
     padding-bottom: 10px;
 }
@@ -90,15 +85,14 @@ header {
     width: 100%;
     margin: 0 auto;
     height: auto;
-    text-align: center;
-    /*mix-blend-mode: screen;*/   
+    text-align: center; 
 }
 
 .header-text-top h1 {
     margin: 20px auto;
     font-size: 3em;
-    color: black;
-    background-color: chocolate;
+    color: white;
+    background-color: #AD1010;
     mix-blend-mode: luminosity;
     letter-spacing: 2px;
     font-weight: 900;
@@ -106,8 +100,10 @@ header {
 
 .header-text-top p {
     font-size: 1.5em;
-    color: black;
-    background-color: chocolate;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    color: white;
+    background-color: #AD1010;
     mix-blend-mode: luminosity;
     font-weight: bold;
 }
@@ -122,7 +118,6 @@ header {
     padding: 0.3em 0.6em;
     color: white;
     border-radius: 50px;
-    border-color: #AD1010;
     text-decoration: none;
     font-weight: bold;
 }  
@@ -134,22 +129,15 @@ header {
 .header-text-bottom {
     width: 100%;
     height: auto;
-    /*margin-top: 10em;*/
     margin-top: 5%;
-    color: black;
-    background-color: chocolate;
+    color: white;
+    background-color: #AD1010;
     mix-blend-mode: luminosity;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
-/*.header-text-bottom div {
-    height: 12em;
-    width: 20em;
-    margin-bottom: 2em;
-}*/
 
 .header-text-bottom h3 {
     font-size: 2em;
@@ -166,9 +154,8 @@ header {
 
 .info-highlight-wrapper {
     width: 100%;
-   
     height: auto;
-    /*min-height: 1210px;*/
+    
 }
 
 .info-highlight-wrapper-chocolate {
@@ -176,9 +163,6 @@ header {
     width: 99vw;
     height: auto;
     margin: 5% auto;
-    /*margin: 2.5% 5% 10px auto;
-    margin: 2.5% 5% 2% auto;*/
-    
     border-radius: 10px;
     padding: 0 10px;
     position: relative;
@@ -193,8 +177,6 @@ header {
     width: 99vw;
     height: auto;
     margin: 0 auto;
-    /*margin: 10px auto 100px 200px;*/
-    /*margin: 0 auto 2% 5%;*/
     background: #242f62;
     border-radius: 10px;
     padding: 0 10px;
@@ -208,34 +190,23 @@ header {
 
 
 .info-highlight-left {
-   /* width: 90vw;*/
-   /* height: 500px;*/
     color: white;
-    /*margin-left: 10%;*/
     padding: 0 10px;
 }
-
-/*.navy-bottom {
-    margin-left: 10%;
-}*/
 
 .info-highlight-left h3 {
     font-size: 3em;
     padding-bottom: 10px;
     padding-top: 10px;
-    /*margin-top: 60px;*/
 }
 
 .info-highlight-left p {
     font-size: 1.4em;
-    /*margin-top: 20px;*/
 }
 
 .info-highlight-right {
     height: auto;
     padding: 10px;
-    /*width: 40vw;*/
-    /*widthmargin-left: 10%;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -249,7 +220,6 @@ header {
     border-radius: 10px;
     padding: 10px;
     margin: 10px auto;
-   /* padding: 4%;*/
     line-height: 3em;
 
 }
@@ -271,7 +241,6 @@ header {
     width: 100%;
     padding: 10px;
     height: auto;
-    /*min-height: 847px;*/
     background:rgb(236, 235, 235); 
 }
 
@@ -313,21 +282,18 @@ header {
 
 .calculator-bottom-wrapper {
     height: auto;
-    /*margin-top: 6em;
-    margin-top: 8%;*/
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
+    padding-bottom: 2em;
 }
 
 .calculator-bottom-wrapper-left, .calculator-bottom-wrapper-right { 
     height: auto;
     width:  90vw;
-    /*width: 400px;
-    height: 178px;*/
     text-align: center;
 }  
 
@@ -368,13 +334,6 @@ header {
     text-decoration: none;
 }
 
-/*.calculator-bottom-wrapper-right> a {
-    font-size: 2em;
-    color: white;
-    text-decoration: none;
-}*/
-
-
 
 /*big-card-grid section */
 
@@ -387,33 +346,20 @@ header {
 
 .mid-section {
     height: auto;
-    /*min-height: 693px;*/
     width: 99vw;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*position: relative;*/
 }
 
 .mid-section div {
-    /*height: 25vh;*/
-   /*width: 30%;*/
-  /*  width: 20vw;*/
     width: 340px;
     margin: 20px auto;
 }
 
-/*.first-row {
-    margin-top: 30px;
-    margin-left: 30px;
-}
 
-.second-row {
-    margin-top: 10px;
-    margin-right: 30px;
-}*/
 
 .mid-section h3 {
     font-size: 20px;
@@ -429,23 +375,7 @@ header {
 .mid-section p {
     font-size: 18px;
 }
-
-/*.mid-section-button-container {
-    width: 100vw;
-    height: 10vh;
-   
-}*/
-
-/*.mid-section input[type="submit"] {
-   position: absolute;
-    font-size:20px;
-    bottom: 70px;
-    border: 2px solid chocolate;
-    background-color: white;
-    color: chocolate;
-    padding: 0.3em;
-    border-radius: 50px;*/    
-
+  
 
 /*contact section*/
 
@@ -453,7 +383,6 @@ header {
     width: 100vw;
    padding: 10px;
     height: auto;
-    /*min-height: 302.5px;*/
      margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -463,8 +392,6 @@ header {
 
 .contact-section {
     height: auto;
-    /*min-height: 121px;*/
-   /* width: 20vw;*/
    padding: 10px;
     text-align: center;
     font-size: 1.5em;
@@ -642,61 +569,9 @@ header {
     color: #AD1010;
 }
 
-/*.mid-section {
-    height: 50vh;
-    width: 60%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    position: relative;
-}*/
 
-/*.mid-section>div {
-    height: 25vh;
-    width: 20vw;
-    /*width: 30%;
-}
 
-/*.first-row {
-    margin-top: 30px;
-    margin-left: 30px;
-}
 
-.second-row {
-    margin-right: 30px;
-}
-
-.mid-section h3 {
-    font-size: 20px;
-    color: chocolate;
-}
-
-.mid-section i {
-    font-size: 25px;
-    margin-left: 5px;
-    color:#242f62;
-}
-
-.mid-section p {
-    font-size: 18px;
-}
-
-/*.mid-section input[type="submit"] {
-    /*position: absolute;*/
-   /*font-size:20px;
-    bottom: 70px;
-    border: 2px solid chocolate;
-    background-color: white;
-    color: chocolate;
-    padding: 0.3em;
-    border-radius: 50px;
-    
-}*/
 
 
 /*product-flow*/
@@ -1196,6 +1071,7 @@ input[type="submit"] {
 
     .navbar {
         padding-bottom: 0px;
+        font-size: 1.2em;
     } 
 
     .header-text-top h1 {
@@ -1309,7 +1185,8 @@ input[type="submit"] {
     }
     
     .header-text-wrapper {
-        width: 60%;
+        width: 63%;
+        max-width: 645.11px;
         text-align: left;
     }
 
@@ -1418,6 +1295,10 @@ input[type="submit"] {
         justify-content: space-evenly;
     }
 
+
+
+
+
     /* product page */
     .hero-image-container{
         padding-top: 50px;
@@ -1425,7 +1306,7 @@ input[type="submit"] {
     
     .info-container {
         justify-content: center;
-        align-items: center;   
+        align-items: flex-start;   
     }
     .info-container > p {
         width: 39vh;
@@ -1439,11 +1320,13 @@ input[type="submit"] {
         min-width: 532.73px;
     }
 
-    .info-container > h2 {
+    .info-container > h1 {
         width: 39vh;
-        font-size: 4em;
-        line-height: 1em;
+        font-size: 6em;
+        line-height: 1.5em;
         min-width: 532.73px;
+        margin-bottom: 35px;
+        text-align: start;
     }   
 
     .img-container {
@@ -1457,8 +1340,9 @@ input[type="submit"] {
         width: 39vw;
     }
 
-    .info-container input[type="submit"] {
+    .info-container > a {
         font-size: 2.5em;
+        margin-left: 0px;
     }
 
     .cards-container {
@@ -1577,7 +1461,7 @@ input[type="submit"] {
 }
 
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1500px) { 
     .navbar > a { 
         font-size: 2.5em;
     }
@@ -1585,6 +1469,11 @@ input[type="submit"] {
     .mid-section { 
         width: 60vw;
         max-width: 1349px;
+    }
+
+    .header-text-wrapper {
+        margin-left: 30%;
+        margin-right: 70%;
     }
 
     .header-text-bottom {
@@ -1601,6 +1490,6 @@ input[type="submit"] {
 
     .header-text-top h1 {
         font-size: 7em;
-        margin: 80px 0px;
+        margin: 80px 0;
     }
 }
