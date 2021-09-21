@@ -30,13 +30,13 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
 ### validator and lighthouse tests
 
 
-!(https://i.imgur.com/YUj6aB6.png)
-!(https://i.imgur.com/pxnLqUZ.png)
-!(https://i.imgur.com/5k7QqbX.png)
-!(https://i.imgur.com/upgvJSH.png)
-!(https://i.imgur.com/7uVxXS0.png)
-!(https://i.imgur.com/T5965Us.png)
-!(https://i.imgur.com/XNgBKmM.png)
+![](https://i.imgur.com/YUj6aB6.png)
+![](https://i.imgur.com/pxnLqUZ.png)
+![](https://i.imgur.com/5k7QqbX.png)
+![](https://i.imgur.com/upgvJSH.png)
+![](https://i.imgur.com/7uVxXS0.png)
+![](https://i.imgur.com/T5965Us.png)
+![](https://i.imgur.com/XNgBKmM.png)
 
 
 
