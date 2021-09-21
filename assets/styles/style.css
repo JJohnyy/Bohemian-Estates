@@ -1201,10 +1201,15 @@ input[type="submit"] {
     .header-text-top h1 {
         font-size: 5em;
         margin: 50px 0px;
+        border-radius: 10px;
+        padding-left: 5px;
     }
 
     .header-text-top p {
         font-size: 3em;
+        border-radius: 10px;
+        padding-left: 5px;
+        margin-bottom: 10px;
     }
 
     .header-text-mid input {
@@ -1215,6 +1220,7 @@ input[type="submit"] {
     .header-text-bottom {
         flex-direction: row;
         justify-content: space-around;
+        border-radius: 10px;
     }
 
     .header-text-bottom h3 {
@@ -1397,7 +1403,7 @@ input[type="submit"] {
     .inner-form-wrapper {
         margin-top: 500px;
     }
-
+}
 
 @media only screen and (min-width: 1416px) {
     .info-container > h2 {
