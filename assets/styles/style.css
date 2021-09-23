@@ -579,7 +579,6 @@ header {
 .product-flow {
     width: 100vw;
     height: auto;
-    /*min-height: 300px;*/
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -589,8 +588,7 @@ header {
 
 .flow-info {
     height: 160px;
-    /*min-height: 150px;*/
-    width: 160px;
+    width: 180px;
     
 }
 
@@ -604,14 +602,14 @@ header {
 }
 
 .one{
-    border-top: 1px solid #AD1010;
-    border-left: 1px solid #AD1010;
+    border-top: 2px solid #AD1010;
+    border-left: 2px solid #AD1010;
 }
 
 
 .two {
-    border-top: 1px solid #AD1010;
-    border-right: 1px solid #AD1010;  
+    border-top: 2px solid #AD1010;
+    border-right: 2px solid #AD1010;  
 }
 
 
@@ -1122,6 +1120,23 @@ input[type="submit"] {
         font-size: 1.8em;
     }
 
+    
+    
+    /*product page*/
+
+    .info-container > h1 {
+        font-size: 4.5em;
+    }
+
+    .info-container > h3 {
+        font-size: 3em;
+    }
+
+    .info-container > p {
+        font-size: 2em;
+    }
+
+
     /*form-page*/
 
     .inner-form-wrapper {
@@ -1435,8 +1450,8 @@ input[type="submit"] {
     .one{
         border-top: none;
         border-left: none;
-        border-bottom: 1px solid chocolate;
-        border-right: 1px solid chocolate;
+        border-bottom: 2px solid #AD1010;
+        border-right: 2px solid #AD1010;
     }
 
         .one p {
