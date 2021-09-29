@@ -47,7 +47,7 @@ header {
 }
 
 .logo {
-    padding: 10px;
+    padding: 10px 0;
     width: 150px;
     height: auto;
 }
@@ -72,12 +72,10 @@ header {
 }
 
 
-#form-connect > a {
-    background: #242f62;
-    border-radius: 50px;
-    color: white;
+/*#form-connect > a {
+    color: #242f62;
     padding: 0.4em;
-}
+}*/
 
 /*header-text and info*/
 
@@ -380,10 +378,10 @@ header {
 /*contact section*/
 
 .contact-section-wrapper {
-    width: 100vw;
-   padding: 10px;
+    width: 100%;
+    padding: 10px 0;
     height: auto;
-     margin: 0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -392,7 +390,7 @@ header {
 
 .contact-section {
     height: auto;
-   padding: 10px;
+    padding: 10px;
     text-align: center;
     font-size: 1.5em;
     margin: 20px 0;
@@ -444,7 +442,7 @@ header {
 /*hero image*/
 
 .hero-image-container {
-    width: 100vw;
+    width: 100%;
     margin: 0 auto; 
     height: auto;
     display: flex;
@@ -460,7 +458,6 @@ header {
 }
 
 .info-container h1 {
-    /*width: 90vw;*/
     margin: 35px auto;
     font-size: 2.5em;
     letter-spacing: 5px;
@@ -471,7 +468,6 @@ header {
 }
 
 .info-container h3 {
-    /*width: 90vw;*/
     margin: 0 auto;
     font-size: 2em;
     letter-spacing: 2px;
@@ -515,7 +511,7 @@ header {
 /*cards, products*/
 
 .cards-container {
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin: 50px auto;
     display: flex;
@@ -577,7 +573,7 @@ header {
 /*product-flow*/
 
 .product-flow {
-    width: 100vw;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -613,11 +609,6 @@ header {
 }
 
 
-/*.one p {
-    padding-top: 4.5vh;
-}*/
-
-
 
 
 
@@ -631,7 +622,7 @@ header {
 
 /*contact form*/
 .contact {
-    width: 100vw;
+    width: 100%;
     height: auto;
     background: #242f62;
     color: white;
@@ -731,15 +722,13 @@ header {
     width: 100vw;
     height: auto;
     margin: 0 auto;
-    max-width: 1022px;
-    
+    max-width: 1522px; 
 }
 
 .form-text {
     width: 100vw;
     margin: 0 auto;
-    height: auto;
-    max-width: 463px;
+    height: auto;   
 }   
 
 .form-text>h1 {
@@ -961,10 +950,8 @@ input[type="submit"] {
 /*footer*/
 
 .footer-wrapper {
-    width: 100vw;
-
+    width: 100%;
     height: auto;
-    /*min-height: 338.25px;*/
     border-top: 5px solid #AD1010;
     background:#242f62;
     text-align: center;
@@ -982,10 +969,8 @@ input[type="submit"] {
     width: 100vw;
     height: auto;
     margin: 0 auto;
-   /* text-align: right;*/
     display:flex;
     justify-content:center;
-    /*align-items:flex-end;*/
     flex-direction: column;
 }
 
@@ -998,17 +983,17 @@ input[type="submit"] {
 
 .footer-logo {
     width: 150px;
-    margin:20px auto 0 auto;
+    margin: 30px auto;
 }
 
 .social {
     width: 50%;
-    height: 80px;
+    height: 40px;
     margin: 2em auto;
     padding: 0;
 }
 
-.social i{
+.social i {
     width: 35px;
     font-size: 15px;
     color: white;
@@ -1409,14 +1394,10 @@ input[type="submit"] {
     }
 
     .outer-form-wrapper {
+        margin-top: 100px;
         width: 80vw;
         justify-content: flex-start;
         align-items: flex-start;
-        flex-shrink: 2;
-    }
-
-    .inner-form-wrapper {
-        margin-top: 500px;
     }
 }
 
