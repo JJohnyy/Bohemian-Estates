@@ -37,6 +37,12 @@ There are total of 4 pages: home page, product page - about main product - guara
 * There is a bug in contact section where, on mobile device submit button is displayed with different border radius
 
 
+# Deployment
+
+netlify.com was used to deploy the page
+[Netlify](https://modest-lamport-362220.netlify.app)
+
+
 # Resposivness
 All 4 pages were tested in responsivness in chrome-developer tools and also in ami.resposivedesign
 
