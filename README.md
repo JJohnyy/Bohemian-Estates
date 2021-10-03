@@ -14,12 +14,16 @@ There are total of 4 pages: home page, product page - about main product - guara
 
 
 # Process
-  I first built all pages for PC version and started to create responsivness where I realized project was built wrongly and cannot be finished this was, or at least woud be very difficult. So I started again, this time from mobile version and continued to bigger sizes, this method proved to be very efficient and I was able to finish quite quickly.
+  * I first built all pages for PC version and started to create responsivness where I realized project was built wrongly and cannot be finished this way, or at least woud be very difficult. 
 
-  Affer finishing this process I finally watched Portfolio 1 lessons where I realized I could have saved myself alot of time. This is where I found out the page has to go thru validators and lighthouse, where I found out my project is full of bugs and mistakes, so I had to basically rebuilt some parts of the project to be able to continue.  I will watch necessary instructions before I start my next project, I promise :)
+  * So I started again, this time from mobile version and continued to bigger sizes, this method proved to be very efficient and I was able to finish quite quickly.
+
+  * After finishing this process I finally watched Portfolio 1 lessons where I realized I could have saved myself alot of time. 
+  * This is where I found out the page has to go thru validators and lighthouse, where I found out my project is full of bugs and mistakes, so I had to basically rebuilt some parts of the project to be able to continue.  
+  * **I will watch necessary instructions before I start my next project, I promise :)**
 
 
-# Page goals
+# Site goals
 
 * **First time visitor goals**
   * first time visitor will be led to form where he will leave his contact details
