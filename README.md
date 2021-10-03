@@ -11,20 +11,20 @@ this poject was created in VScode
   
 Bohemian Estates is about managing properties to its full potentieal
 There are total of 4 pages: 
-* home page 
+* ### home page 
   * contains hero image 
   * basic inforamtion about company
   * main goal is to lead a visitor to contact form
 
-* product page - about main product - guaranteed rent 
+* ### product page - about main product - guaranteed rent 
   * contains basic image
   * all necessary information about main product
   * basic contact form- this is part of the page where visitor could leave his/her contacts
 
-* contact form 
+* ### contact form 
   * only purpose of this page is to get a form submitted from a new visitor - to get a lead
 
-* contacts for the company and branches
+* ### contacts for the company and branches
   * contains all contact and other necessary, legal information about the company
 
 
