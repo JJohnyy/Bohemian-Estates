@@ -23,7 +23,8 @@ There are total of 4 pages: home page, product page - about main product - guara
 
 * **First time visitor goals**
   * first time visitor will be led to form where he will leave his contact details
-  * the visitor should be well informed about a product th e company offers from rpoduct page
+  * the visitor should be well informed about a product th e company offers from product page
+  * another goal fot hte first time visitor is to get an impression company is well established and experienced
 
 
 # Resposivness
