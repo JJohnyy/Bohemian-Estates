@@ -26,6 +26,16 @@ There are total of 4 pages: home page, product page - about main product - guara
   * the visitor should be well informed about a product th e company offers from product page
   * another goal fot hte first time visitor is to get an impression company is well established and experienced
 
+# Testing 
+
+* page was tested in different browsers and sizes
+* friends and family members were asked to review the page and give feedback on issues and bugs
+
+
+# Known bugs
+
+* There is a bug in contact section where, on mobile device submit button is displayed with different border radius
+
 
 # Resposivness
 All 4 pages were tested in responsivness in chrome-developer tools and also in ami.resposivedesign
