@@ -71,6 +71,17 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
 
 # validator and lighthouse tests
 
+* ### Found mistakes and bugs
+
+    * **Wrong colors** 
+      * Initial choice of color was chocolate which I ahd to change because of contrast problems
+    
+    * **Width**
+      * There was an issue with a width of whole site which was caused by footer width - originaly set to 100vw, had to change it to 100% to make the site fit the screen
+
+      *  
+
+
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ![](https://i.imgur.com/YUj6aB6.png)
