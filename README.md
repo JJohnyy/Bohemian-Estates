@@ -21,7 +21,8 @@ There are total of 4 pages: home page, product page - about main product - guara
 
 # Page goals
 
-* First time visitor goals
+* **First time visitor goals**
+  * first time visitor will be led to form where he will leave his contact details
 
 
 # Resposivness
