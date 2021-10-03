@@ -19,8 +19,12 @@ There are total of 4 pages: home page, product page - about main product - guara
   Affer finishing this process I finally watched Portfolio 1 lessons where I realized I could have saved myself alot of time. This is where I found out the page has to go thru validators and lighthouse, where I found out my project is full of bugs and mistakes, so I had to basically rebuilt some parts of the project to be able to continue.  I will watch necessary instructions before I start my next project, I promise :)
 
 
-# Resposivness
+# Page goals
 
+* First time visitor goals
+
+
+# Resposivness
 All 4 pages were tested in responsivness in chrome-developer tools and also in ami.resposivedesign
 
 ![](https://i.imgur.com/r3DodsW.png)
@@ -29,6 +33,7 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
 
 # validator and lighthouse tests
 
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ![](https://i.imgur.com/YUj6aB6.png)
 ![](https://i.imgur.com/pxnLqUZ.png)
@@ -38,6 +43,9 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
 ![](https://i.imgur.com/T5965Us.png)
 ![](https://i.imgur.com/Zkn0CBd.png)
 ![](https://i.imgur.com/XNgBKmM.png)
+
+
+
 
 
 
