@@ -22,7 +22,7 @@ There are total of 4 pages:
   * basic contact form- this is part of the page where visitor could leave his/her contacts
 
 * contact form 
- * only purpose of this page is to get a form submitted from a new visitor - to get a lead
+  * only purpose of this page is to get a form submitted from a new visitor - to get a lead
 
 * contacts for the company and branches
   * contains all contact and other necessary, legal information about the company
