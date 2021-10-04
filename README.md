@@ -48,6 +48,15 @@ There are total of 4 pages:
  * **Repeated visitor goals**
     * repeated visitor goals is the same as first visitor goal, if he/her wasnt convinced to leave their contact details, the goal is to leave them in another visit 
 
+
+# Design 
+
+* font 
+  * used font on site is Heebo, Sans serif used as a fallback font
+
+* pictures  
+  * images were downloaded from variety of websites including pexels for hero image
+
 # Testing 
 
 * page was tested in different browsers and sizes
