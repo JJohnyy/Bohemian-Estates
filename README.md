@@ -57,6 +57,22 @@ There are total of 4 pages:
 * pictures  
   * images were downloaded from variety of websites including pexels for hero image
 
+
+# Technologies Used
+Below is everything that I used throughout development which helped with building the website.
+
+* HTML -  HTMl5 provided the content and the structure of my website. I used a few semantic elements where possible.
+
+* CSS - CSS was used to style all my pages.
+
+* Google fonts - Google fonts was used to import all font types for the different elements.
+
+* GitHub -  GitHub was used to externally hold my repository. Will also use GitHub pages to deploy my website.
+
+* VSCode - VSCode was used to write entire code.
+
+* Font Awsome - font awsome was used thru entire website to enhance look and experience of a user
+
 # Testing 
 
 * page was tested in different browsers and sizes
