@@ -54,6 +54,7 @@ There are total of 4 pages:
 # Known bugs
 
 * There is a bug in contact section where, on mobile device submit button is displayed with different border radius
+* On mobile device marker from details tag, which is originally hidden on desktop version is visible
 
 
 # Deployment
@@ -71,7 +72,7 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
 
 # validator and lighthouse tests
 
-* ### Found mistakes and bugs
+* ### Found and corrected mistakes and bugs
 
     * **Wrong colors** 
       * Initial choice of color was chocolate which I ahd to change because of contrast problems
@@ -79,7 +80,7 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
     * **Width**
       * There was an issue with a width of whole site which was caused by footer width - originaly set to 100vw, had to change it to 100% to make the site fit the screen
 
-      *  
+      *  The same issue was caused by contact section on guaranteed rent page, fixed the same way.
 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
