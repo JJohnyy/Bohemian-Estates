@@ -12,7 +12,7 @@ this poject was created in VScode
 Bohemian Estates is about managing properties to its full potentieal
 There are total of 4 pages: 
 * ### home page 
-  * contains hero image 
+  * contains hero image - image references to appartment building
   * basic inforamtion about company
   * main goal is to lead a visitor to contact form
 
@@ -44,6 +44,9 @@ There are total of 4 pages:
   * first time visitor will be led to form where he will leave his contact details
   * the visitor should be well informed about a product th e company offers from product page
   * another goal fot hte first time visitor is to get an impression company is well established and experienced
+
+ * **Repeated visitor goals**
+    * repeated visitor goals is the same as first visitor goal, if he/her wasnt convinced to leave their contact details, the goal is to leave them in another visit 
 
 # Testing 
 
