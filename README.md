@@ -62,6 +62,9 @@ There are total of 4 pages:
 
 # Deployment
 
+project can be found on this link
+[Github](https://github.com/JJohnyy/Bohemian-Estates)
+
 netlify.com was used to deploy the page
 [Netlify](https://modest-lamport-362220.netlify.app)
 
