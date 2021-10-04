@@ -94,7 +94,7 @@ netlify.com was used to deploy the page
 [Netlify](https://modest-lamport-362220.netlify.app)
 
 
-# Resposivness
+# Responsivness
 All 4 pages were tested in responsivness in chrome-developer tools and also in ami.resposivedesign
 
 ![](https://i.imgur.com/r3DodsW.png)
