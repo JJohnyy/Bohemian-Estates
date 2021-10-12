@@ -2,6 +2,8 @@
 
 this poject was created in VScode 
 
+social icons are not my code
+
 
 # Introduction
  
@@ -112,6 +114,9 @@ All 4 pages were tested in responsivness in chrome-developer tools and also in a
       * There was an issue with a width of whole site which was caused by footer width - originaly set to 100vw, had to change it to 100% to make the site fit the screen
 
       *  The same issue was caused by contact section on guaranteed rent page, fixed the same way.
+
+    * **Headings**
+      * i had to change headings on pages, they were not in correct order.  
 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
