@@ -436,7 +436,8 @@ header {
 
 
 
-/*this is where product page starts*/
+/* product page*/
+
 /*hero image*/
 
 .hero-image-container {
@@ -521,7 +522,6 @@ header {
 .card {
     height: 300px;
     width: 360px;
-    /*min-width: 300px;*/
     text-align: center;
     background: white;
     color: #242f62;
@@ -564,10 +564,6 @@ header {
 }
 
 
-
-
-
-
 /*product-flow*/
 
 .product-flow {
@@ -605,15 +601,6 @@ header {
     border-top: 2px solid #AD1010;
     border-right: 2px solid #AD1010;  
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -698,12 +685,6 @@ header {
     font-size: 1.6em;
     text-align: center;
 }
-
-
-
-
-
-
 
 
 
@@ -893,7 +874,6 @@ input[type="submit"] {
 .town-contacts-card  i {
     font-size: 1em;
     float: right;
-    /*padding-right: 40px;*/
     padding-top: 6px;
 }
 
@@ -927,18 +907,6 @@ input[type="submit"] {
     border-radius: 50px;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
